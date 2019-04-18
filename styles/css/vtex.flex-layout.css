@@ -1,0 +1,8 @@
+.flexRow--homeBannerGrid {
+  margin-top: 3rem;
+}
+
+.flexRow--homeBannerGrid > section > div {
+  background: #f7f7f7;
+  padding: 4rem 2rem;
+}

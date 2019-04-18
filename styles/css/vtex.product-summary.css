@@ -1,0 +1,60 @@
+.container {
+  overflow: inherit;
+  padding: 0.5rem;
+}
+
+/* .containerNormal {
+  min-width: 18rem;
+} */
+
+.element {
+  padding: 1rem;
+  box-shadow: 0px 3px 7px #e2e2e2;
+}
+
+.nameContainer {
+  padding: 0;
+}
+
+.nameContainer span {
+  font-size: 1rem;
+}
+
+.priceContainer {
+  padding: 0.5rem 0 0;
+}
+
+.priceContainer div[class*='t-body'] {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.imageContainer {
+  /* max-height: 216px; */
+  /* max-width: 216px; */
+}
+
+/* .imageContainer div:global(.relative) div:global(.absolute) {
+  height: auto;
+  right: -30px;
+} */
+
+.description {
+  border: 1px solid #dce6f1;
+  border-width: 1px 0;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  color: #3f4245;
+  line-height: 1rem;
+  font-size: 0.8rem;
+  font-weight: 100;
+  text-align: center;
+}
+
+.buyButton button {
+  width: 100%;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 40em) {
+}

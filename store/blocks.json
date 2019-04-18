@@ -1,0 +1,467 @@
+{
+  "store.home": {
+    "blocks": ["notification.bar", "info-card#home", "shelf#home1", "shelf#home2", "shelf#home3", "flex-layout.row#home"]
+  },
+  "store.product": {
+    "blocks": ["product-details#default", "product-kit", "shelf.relatedProducts"]
+  },
+  "store.search": {
+    "blocks": ["search-result"]
+  },
+  "store.search#brand": {
+    "blocks": ["search-result"]
+  },
+  "store.search#department": {
+    "blocks": ["search-result#department"]
+  },
+  "store.search#category": {
+    "blocks": ["search-result"]
+  },
+  "store.search#subcategory": {
+    "blocks": ["search-result"]
+  },
+  "store.account": {
+    "blocks": ["my-account"],
+    "parent": {
+      "challenge": "challenge.profile"
+    }
+  },
+  "store.login": {
+    "blocks": ["login-content#default"]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-row#desktop-1",
+      "header-row#desktop-2",
+      "header-row#desktop-3"
+    ]
+  },
+  "header-row#desktop-1": {
+    "children": [
+      "menu-link"
+    ],
+    "props": {
+      "blockClass": "topbar"
+    }
+  },
+  "header-row#desktop-2": {
+    "children": [
+      "header-spacer",
+      "search-bar",
+      "login",
+      "minicart"
+    ],
+    "props": {
+      "sticky": false
+    }
+  },
+  "header-row#desktop-3": {
+    "children": [
+      "logo",
+      "category-menu"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main"
+    }
+  },
+  "menu-link": {
+    "props": {
+      "links": [
+        {
+          "text": "Licensing Partner",
+          "typeOfRoute": "internal",
+          "internalPage": "store.home",
+          "position": "left"
+        },
+        {
+          "text": "Owner Center",
+          "typeOfRoute": "internal",
+          "internalPage": "store.home",
+          "position": "right"
+        },
+        {
+          "text": "Product Registration",
+          "typeOfRoute": "internal",
+          "internalPage": "store.home",
+          "position": "right"
+        },
+        {
+          "text": "Contact",
+          "typeOfRoute": "internal",
+          "internalPage": "store.home",
+          "position": "right"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "props": {
+      "url": "https://ecowaterqa.vteximg.com.br/assets/vtex.file-manager-graphql/images/ecopure_logo_250___5e148cdd3988f679072fc40505e50675.jpg",
+      "title": "Eco Water",
+      "href": "/"
+    }
+  },
+  "search-bar": {
+    "props": {
+      "placeholder": "Search"
+    }
+  },
+  "login": {
+    "props": {
+      "showPasswordVerificationIntoTooltip": true,
+      "iconLabel": "Account"
+    }
+  },
+  "category-menu": {
+    "props": {
+      "showAllDepartments": false,
+      "menuPosition": "left"
+    }
+  },
+  "minicart": {
+    "blocks": ["product-summary"],
+    "props": {
+      "type": "sidebar",
+      "showRemoveButton": true,
+      "showDiscount": true,
+      "showSku": true,
+      "labelMiniCartEmpty": "",
+      "labelButtonFinishShopping": "",
+      "enableQuantitySelector": true,
+      "maxQuantity": 10
+    }
+  },
+  "footer": {
+    "props": {
+      "showPaymentFormsInColor": true,
+      "showSocialNetworksInColor": true,
+      "showVtexLogoInColor": false,
+      "socialNetworks": [
+        {
+          "__editorItemTitle": "Facebook",
+          "socialNetwork": "Facebook",
+          "url": "https://www.facebook.com/usetrintaetres"
+        },
+        {
+          "__editorItemTitle": "Instagram",
+          "socialNetwork": "Instagram",
+          "url": "https://www.instagram.com/USETRINTAETRES/"
+        }
+      ],
+      "sectionLinks": [
+        {
+          "__editorItemTitle": "Institucional",
+          "title": "Institucional",
+          "links": [
+            {
+              "__editorItemTitle": "Política de venda",
+              "title": "Política de venda",
+              "url": "/politica-de-venda"
+            },
+            {
+              "__editorItemTitle": "Formas de pagamento",
+              "title": "Formas de pagamento",
+              "url": "/formas-de-pagamento"
+            },
+            {
+              "__editorItemTitle": "Política de troca e devoluções",
+              "title": "Política de troca e devoluções",
+              "url": "/politica-de-troca-e-devolucoes"
+            },
+            {
+              "__editorItemTitle": "Segurança e Privacidade",
+              "title": "Segurança e Privacidade",
+              "url": "seguranca-e-privacidade"
+            }
+          ]
+        },
+        {
+          "__editorItemTitle": "Contato",
+          "title": "Contato",
+          "links": [
+            {
+              "__editorItemTitle": "E-mail: contato@use33.com.br",
+              "title": "E-mail: contato@use33.com.br",
+              "url": "mailto:contato@use33.com.br"
+            }
+          ]
+        }
+      ],
+      "badges": [],
+      "paymentForms": [
+        {
+          "__editorItemTitle": "Crédito",
+          "title": "Crédito",
+          "paymentTypes": ["MasterCard", "Visa", "Diners Club"]
+        }
+      ],
+      "storeInformations": [
+        {
+          "__editorItemTitle": "Informação da Loja",
+          "storeInformation": "Todas as regras e promoções são válidas apenas para produtos vendidos e entregues pela nossa Loja. O valor de oferta do produto será garantido após a finalização da compra. Havendo divergência, prevalecerá o menor preço ofertado. \n\n\nStore pictures: https://photos.icons8.com"
+        },
+        {
+          "__editorItemTitle": "Endereço",
+          "storeInformation": "CNPJ: 30.355.840/0001-38 - USE 33 COMERCIO DE VESTUARIO LTDA"
+        }
+      ]
+    }
+  },
+  "notification.bar": {
+    "props": {
+      "content": "<strong>SUMMER SALE!</strong> Save 10% on our 30.000-grain softner. <a href='#' class='white'>Learn More</a>"
+    }
+  },
+  "info-card#home": {
+    "props": {
+      "isFullModeStyle": true,
+      "headline": "Enjoy pure water every time you turn the faucet",
+      "subhead": "Your and your family rely on clean water to stay healthy. Don't let hard or contamined water get in the way of that. Take back control with a water solution designed around your unique needs.",
+      "callToActionText": "Shop water solutions",
+      "callToActionUrl": "/water-softeners/d",
+      "imageUrl": "https://ecowaterqa.vteximg.com.br/arquivos/ids/155512",
+      "blockClass": "hero"
+    }
+  },
+  "shelf#home1": {
+    "blocks": ["product-summary.unstable--flex"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "category": 4,
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 2,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Whole Home Filtration"
+      }
+    }
+  },
+  "shelf#home2": {
+    "blocks": ["product-summary.unstable--flex"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "category": 1,
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Undersink Filtration"
+      }
+    }
+  },
+  "shelf#home3": {
+    "blocks": ["product-summary.unstable--flex"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "category": 7,
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 2,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Water Softening"
+      }
+    }
+  },
+  "product-summary.unstable--flex": {
+    "children": [
+      "product-summary-name",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-image",
+      "product-summary-description",
+      "product-summary-buy-button"
+    ]
+  },
+  "product-summary-name": {
+    "props": {
+      "showFieldsProps": {
+        "showSku": false,
+        "showProductReference": false,
+        "showBrandName": false
+      }
+    }
+  },
+  "product-summary-price": {
+    "props": {
+      "showListPrice": true,
+      "showInstallments": false,
+      "showLabels": false,
+      "showBorders": false
+    }
+  },
+  "product-summary-buy-button": {
+    "props": {
+      "buyButtonText": "Add to cart"
+    }
+  },
+  "info-card#homeCard1": {
+    "props": {
+      "headline": "Not sure which water solution you need?",
+      "subhead": "Take our quiz to find the best products for your home. In just minutes you will know how to solve your water problems.",
+      "callToActionText": "Take the quiz",
+      "callToActionUrl": "#",
+      "imageUrl": "https://ecowaterqa.vteximg.com.br/arquivos/ids/155512",
+      "blockClass": "homeCard1"
+    }
+  },
+  "info-card#homeCard2": {
+    "props": {
+      "headline": "Ditch the bottled water and save!",
+      "subhead": "Discover how much money you could be saving by making the switch to in-home filtration.",
+      "callToActionText": "Read the article",
+      "callToActionUrl": "#",
+      "imageUrl": "https://ecowaterqa.vteximg.com.br/arquivos/ids/155512",
+      "callToActionMode": "link",
+      "blockClass": "homeCard2"
+    }
+  },
+  "info-card#homeCard3": {
+    "props": {
+      "headline": "Oo-Oo that smell...",
+      "subhead": "Learn more about common problems smells in home water and the causes behind them.",
+      "callToActionText": "See the infographic",
+      "callToActionUrl": "#",
+      "imageUrl": "https://ecowaterqa.vteximg.com.br/arquivos/ids/155512",
+      "callToActionMode": "link",
+      "blockClass": "homeCard3"
+    }
+  },
+  "flex-layout.row#home": {
+    "children": [
+      "info-card#homeCard1",
+      "flex-layout.col#home"
+    ],
+    "props": {
+      "blockClass": "homeBannerGrid"
+    }
+  },
+  "flex-layout.col#home": {
+    "children": [
+      "info-card#homeCard2",
+      "info-card#homeCard3"
+    ],
+    "props": {
+      "blockClass": "homeBannerGrid2"
+    }
+  },
+  "product-details#default": {
+    "blocks": [
+      "breadcrumb",
+      "product-name",
+      "product-images",
+      "product-price",
+      "product-description",
+      "product-specifications",
+      "buy-button",
+      "sku-selector",
+      "availability-subscriber",
+      "share",
+      "shipping-simulator"
+    ],
+    "props": {
+      "displayVertically": false,
+      "share": {
+        "social": {
+          "Facebook": true,
+          "Twitter": true,
+          "WhatsApp": true
+        }
+      },
+      "price": {
+        "labelSellingPrice": null,
+        "showListPrice": true,
+        "showLabels": true,
+        "showInstallments": true,
+        "showSavings": true
+      },
+      "name": {
+        "showBrandName": false,
+        "showSku": false,
+        "showProductReference": false
+      }
+    }
+  },
+  "search-result#department": {
+    "blocks": ["filter-navigator", "gallery", "not-found", "breadcrumb", "order-by", "total-products"],
+    "props": {
+      "querySchema": {
+        "maxItemsPerPage": 2,
+        "orderByField": "OrderByReleaseDateDESC"
+      },
+      "hiddenFacets": {
+        "layoutMode1": "normal",
+        "layoutMode2": "small",
+        "specificationFilters": {
+          "hiddenFilters": [
+            {
+              "__editorItemTitle": "editor.search-result.hiddenFacets.specificationFilters.hiddenFilter"
+            }
+          ]
+        }
+      },
+      "summary": {
+        "isOneClickBuy": false,
+        "showBadge": true,
+        "displayBuyButton": "displayButtonHover",
+        "buyButtonText": "",
+        "showCollections": false,
+        "labelSellingPrice": null,
+        "showListPrice": true,
+        "showLabels": true,
+        "showInstallments": false,
+        "showSavings": false,
+        "name": {
+          "showBrandName": false,
+          "showSku": false,
+          "showProductReference": false
+        }
+      },
+      "pagination": "show-more"
+    }
+  },
+  "login-content#default": {
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+  "store.home.custom#politica-de-venda": {
+    "blocks": ["institutional-page"],
+    "props": {
+      "headline": "Política de Vendas",
+      "html": "Nosso objetivo é garantir a satisfação total de nossos clientes, trabalhando sempre com muita transparência em todas as etapas da negociação. Por isso criamos uma POLÍTICA DE VENDAS completa, esclarecendo todas as regras adotadas pela USE 33 e os procedimentos que devem ser seguidos caso ocorra qualquer problema durante o processo de compra.. <br/><br/><span class=\"t-heading-3\">1. Introdução</span><br/><br/>Nossa POLÍTICA DE VENDAS foi elaborada integralmente de acordo com o Código de Defesa do Consumidor (Lei 8.078 de 11 de setembro de 1990), visando seguir as regras legais de relacionamento entre empresa e consumidores. Nos comprometemos a tratar todas as ocorrências de acordo com o que manda o Código de Defesa do Consumidor e a legislação brasileira.<br/><br/>É importante que sejamos comunicados através de nossos canais de atendimento caso haja qualquer problema ou ocorrência no processo de pré-venda ou pós-venda, para que possamos analisar a situação e solucioná-la da melhor forma possível.<br/><br/>Para mais informações confira na íntegra a Lei nº 8.078 no site da Presidência da República.<br/><br/> <span class=\"t-heading-3\">2. Procedimento de entrega</span><br/><br/>Prazo de POSTAGEM<br/><br/>Após a confirmação do pagamento seu pedido normalmente é postado em até 2 dias úteis (48 horas), desde que a confirmação do pagamento ocorra dentro de nosso horário operacional.<br/><br/>Este prazo pode ser prorrogado em até 3 dias úteis, nas situações de instabilidades em sistemas fiscais e logísticos, grande fluxo de pedidos ocasionados por promoções, épocas comemorativas do ano e/ou lançamentos de produtos, ou devido a atrasos ocasionados por empresas terceirizadas (transportadoras, plataformas on-line, fornecedores etc.).<br/><br/>Mesmo nessas situações, sempre nos esforçamos para postar seu produto com a máxima agilidade possível.<br/><br/>Horário operacional<br/><br/>Nosso horário operacional é das 09h às 17h, de segunda à sexta-feira (exceto em feriados municipais, estaduais ou nacionais).<br/><br/>Pedidos que tiverem confirmação de pagamento fora do horário operacional terão seu prazo de postagem contado à partir do próximo dia útil. Ou seja, se você realizar uma compra na sexta-feira e o seu pagamento for confirmado apenas após às 17h, o prazo de postagem passa a contar a partir da próxima segunda-feira.<br/><br/>Diferenças entre os prazos de POSTAGEM e de ENTREGA.<br/><br/>Prazo de POSTAGEM: Período entre a realização da compra até o envio da encomenda para os Correios.<br/><br/>Prazo de ENTREGA: Período entre o recebimento da encomenda pelos Correios até o envio ao cliente.<br/><br/>Os prazos de ENTREGA variam de acordo com o endereço de destino e o método de entrega escolhido (Ex.: PAC, SEDEX, etc.).<br/><br/>Os prazos de ENTREGA anunciados no site são previsões aproximadas de acordo com informações repassadas pela empresa transportadora, podendo variar para mais ou para menos. Não nos responsabilizamos por eventuais atrasos ocasionados por falhas logísticas ou eventualidades no translado, ocorridos após a postagem da encomenda.<br/><br/>Horários de entregaAs entregas são realizadas pelas transportadoras em horário comercial, das 08h às 18h, de segunda à sexta-feira, e das 8h às 13h aos sábados. As transportadoras não permitem o agendamento de data e/ou horário para entrega, devido às variadas rotas que são formuladas diariamente com diferentes pontos para entrega.<br/><br/>O cliente é responsável por informar no momento da finalização de cada compra os dados corretos do endereço para entrega dos produtos, bem como possibilitar seu recebimento, mantendo no local de entrega uma pessoa maior de 18 anos portando documento original de identidade para receber as mercadorias.<br/><br/>Não nos responsabilizamos por impossibilidade de entrega nos casos de endereço informado incorretamente ou ausência de pessoa qualificada para recebimento das mercadorias.<br/><br/>Tentativas de entrega<br/><br/><br/><br/>Na maioria das vezes são realizadas três tentativas de entrega, sendo o produto encaminhado para a filial da transportadora após a terceira tentativa sem sucesso (ou seja, destinatário ausente), onde ficará armazenado aguardando retirada do cliente (se permitido pela empresa transportadora) ou de onde retornará para nossa loja. Caso exista erro no endereço informado pelo cliente a encomenda retornará imediatamente para nossa loja.<br/><br/>Caso o produto retorne para a nossa loja ele será reenviado ao cliente após novo pagamento pelo frete e eventuais acréscimos cobrados pela transportadora.<br/><br/>Verificação do(s) produto(s) e recusa da entrega<br/><br/>Orientamos o cliente a verificar os produtos no ato da entrega, na presença do entregador.<br/><br/>Caso seja identificado qualquer tipo de violação da embalagem ou invólucro do produto, avaria do produto ou mercadoria em desacordo com o pedido, o cliente deverá recusar o recebimento, indicando na Nota Fiscal e no documento de entrega o motivo da recusa, como por exemplo:<br/><br/>\"ENTREGA RECUSADA POR VIOLAÇÃO DA EMBALAGEM OU INVÓLUCRO DO PRODUTO\"; <br/>\"ENTREGA RECUSADA POR AVARIA DO PRODUTO\"; <br/>\"ENTREGA RECUSADA POR MERCADORIA EM DESACORDO COM O PEDIDO\". <br/>Após recusar o recebimento a encomenda retornará para nossa loja e o cliente deverá comunicar o fato através de um de nossos canais de atendimento imediatamente, para que seja analisada a ocorrência e tomadas as providências necessárias.<br/><br/>Ao assinar o documento de recebimento da transportadora sem nenhuma ressalva escrita o cliente confirma que a embalagem e o invólucro do produto não possuem avarias ou violação visíveis, assim como confirma o recebimento do produto de acordo com o pedido.<br/><br/><span class=\"t-heading-3\">3. Disponibilidade de produtos</span><br/><br/>Buscamos sempre manter as informações de disponibilidade de produtos em nosso site atualizadas de acordo com nossa disponibilidade real em estoque. No entanto, pelo fato de compartilharmos nosso estoque com nossa loja física e com nossos representantes comerciais (que podem realizar vendas e/ou reservas de produtos fora do site), existe a possibilidade de um produto se esgotar mas continuar aparecendo como \"disponível\" em nosso site até que seu status seja atualizado.<br/><br/>Além disso, no momento em que cada produto é embalado e preparado para envio, realizamos também uma análise para conferir se o mesmo encontra-se de acordo com o padrão de qualidade estabelecido pelo fabricante, afim de evitar transtornos para o cliente. Caso o produto não seja aprovado nesse processo de controle de estoque e seja a última peça disponível, o envio não poderá ser realizado.Os procedimentos adotados quando um produto comprado em nosso site encontra-se indisponível no estoque são os seguintes:<br/><br/> Quando o pedido realizado pelo cliente for composto de APENAS UM ITEM e este item estiver indisponível em estoque, ofereceremos ao cliente um VALE COMPRAS no mesmo valor do produto indisponível.<br/><br/>Se o cliente preferir, o valor total da compra (produto + frete) será estornado/devolvido INTEGRALMENTE, através de depósito bancário ou outra forma de pagamento à combinar.<br/><br/> Quando o pedido realizado pelo cliente for composto de MAIS DE UM ITEM e algum dos itens estiver indisponível em estoque, enviaremos normalmente todos os produtos disponíveis e ofereceremos ao cliente um VALE COMPRAS no mesmo valor do(s) produto(s) indisponível(is).Se o cliente preferir, o valor correspondente ao valor do(s) produto(s) indisponível(is) será estornado/devolvido INTEGRALMENTE, através de depósito bancário ou outra forma de pagamento á combinar.<br/><br/>IMPORTANTE: A USE 33 investe constantemente em novas tecnologias para gerenciar seu estoque. Mas, como qualquer grande loja, não estamos livres de eventuais falhas operacionais, mesmo com todo cuidado e dedicação. Nosso principal objetivo é a honestidade e transparência no relacionamento com nossos clientes em situações adversas.<br/><br/> <span class=\"t-heading-3\">4. Pagamentos</span><br/><br/>Para as compras realizadas em nosso site aceitamos as seguintes formas de pagamento:<br/><br/>Boleto (com desconto à vista): Pagamento aceito em toda a rede bancária até o vencimento; <br/><br/>Cartões de crédito: Parcelamento em até 3x sem juros e até 12x com juros, nos seguintes cartões: Visa, MasterCard, Hipercard, American Express, Diners Club International e Elo.<br/><br/>Todas as formas de pagamento que aceitamos possuem confirmação automática, não havendo necessidade do cliente nos enviar qualquer tipo de comprovante, exceto se solicitado por nossa equipe. O envio de comprovantes sem solicitação prévia não agiliza o tempo de postagem ou a entrega do produto.<br/><br/>O tempo de confirmação do pagamento pode variar de acordo com o meio escolhido, sendo que através de cartões de crédito a confirmação leva em média de 1 à 24 horas (dependendo do valor) e em pagamentos via boleto a confirmação pode levar de 1 à 2 dias úteis.<br/><br/>O prazo de postagem da encomenda começa a valer apenas após a confirmação do pagamento.<br/><br/>Saiba mais em nossa página específica sobre \"Formas de pagamento\".<br/><br/><span class=\"t-heading-3\">5. Cancelamento de compras</span><br/><br/>Cancelamento por parte da USE 33<br/><br/>Nos reservamos ao direito de cancelar compras sem aviso prévio nos seguintes casos:<br/><br/>Não pagamento do boleto bancário até o vencimento;<br/><br/> Impossibilidade de executar débito no cartão de crédito com os dados de cobrança informados pelo cliente; <br/> Inconsistência de dados preenchidos pelo cliente no ato do pedido ou em sua ficha cadastral; <br/> Suspeita de fraude; <br/>Não cumprimento de eventuais solicitações de envio de documentação; <br/>Qualquer situação que demonstre má-fé do comprador. <br/><br/> Cancelamento solicitado pelo cliente <br/><br/>De acordo com o artigo 49 do Código de Defesa do Consumidor, o cliente pode solicitar o cancelamento de sua compra em até 7 dias corridos após o recebimento do produto, desde que comunique seu desejo em um de nossos canais de atendimento dentro deste prazo.Acesse nossa \"política de trocas e devoluções\" para se informar sobre todas as regras aplicáveis para o cancelamento de compras.IMPORTANTE: Solicitações de cancelamento só serão aceitas caso o produto com a etiqueta. <br/><br/> <span class=\"t-heading-3\">7. Garantia dos produtos</span><br/><br/>Acionamento da garantia<br/><br/>Quando houver necessidade de acionamento da garantia o primeiro passo é entrar em contato através de um de nossos canais de atendimento para que seja feita a análise do caso, oferecendo então as orientações quanto ao tipo de garantia disponível para o produto em questão e os procedimentos necessários.<br/><br/>Veja todos os detalhes em nossa \"política de trocas e devoluções\".<br/><br/>"
+    }
+  },
+  "store.home.custom#forma-de-pagamento": {
+    "blocks": ["institutional-page"],
+    "props": {
+      "headline": "Formas de Pagamento",
+      "html": "<span class=\"t-heading-3\">Cartões de crédito</span><br/><br/>Até 3X sem juros e compra assegurada! Que maravilha, hein?<br/><br/>Todos os pagamentos via cartão de crédito na ShopB são assegurados pela mediadora de cartão de crédito. Se você não receber seu produto a mediadora de pagamento devolve seu dinheiro, sem burocracia. A mediadora de pagamento só repassa o pagamento para nós caso você receba sua encomenda direitinho. Então, pode comprar com tranquilidade!<br/><br/>Veja quais cartões de crédito são aceitos:<br/><br/><img src=\"https://static.gocommerce.com/gc-muo9042/assets/gocommerce/png/capturadetela2019-03-20as174225___c7f8a05b290c0ee36425887791bedacc.png\" /> <br/><br/><span class=\"t-heading-3\">Boleto bancário</span><br/><br/>Nós também amamos códigos de barras <3 <br/><br/>O método mais clássico de pagamento, e também o mais vantajoso. Além de poder pagar on-line ou em qualquer agência bancária e casas lotéricas, comprando à vista na USE 33você ganha descontos em todos os produtos da loja. <br/><br/>Se você é um amante de descontos e códigos de barras, escolha o boleto sem medo! <br/><br/>IMPORTANTE: Não temos acesso às informações de pagamento antes do mesmo ser aprovado pelo banco responsável. Encomendas serão enviadas somente após a aprovação do pagamento, que ocorre no prazo de até 2 dias úteis. <br/><br/>O envio de comprovantes de pagamento sem solicitação prévia não agiliza o tempo de postagem ou a entrega do produto. <br/><br/>"
+    }
+  },
+  "store.home.custom#politica-de-troca-e-devolucoes": {
+    "blocks": ["institutional-page"],
+    "props": {
+      "headline": "Política de Troca e Devoluções",
+      "html": "Caso você identifique algum problema técnico com os produtos comprados na USE 33 entre em contato o mais rápido possível através de um de nossos canais de atendimento. Tenha sempre em mãos o número de seu pedido para agilizar o atendimento.<br/><br/><span class=\"t-heading-3\">COMO FAZER UMA DEVOLUÇÃO</span><br/><br/>A política de Trocas e Devoluções da Use 33 é flexível: aceitamos devoluções por qualquer motivo em até 07 (sete) dias corridos após o recebimento do seu pedido.<br/><br/><span class=\"t-heading-3\">CONDIÇÕES GERAIS:</span><br/><br/>O custo do frete da primeira devolução da compra é por conta da Use 33, sendo as demais por conta do cliente;<br/>Se preferir, pode selecionar um crédito em formato de cupom de desconto para usar em sua próxima compra. O crédito não tem prazo para ser usado;<br/>A solicitação de troca deve ser feita em até 30 (trinta) dias corridos, contados da data do recebimento da mercadoria. Solicitações recebidas após esse prazo não serão aceitas;<br/>A solicitação de devolução deve ser feita em até 07 (sete) dias corridos, contados da data do recebimento da mercadoria. Solicitações recebidas após esse prazo não serão aceitas;<br/>Se tiver alguma dúvida, entre em contato com a nossa Central de Atendimento, através do e-mail: contato@use33.com.br <br/><br/><span class=\"t-heading-3\">AS PEÇAS SÓ SERÃO ACEITAS SE DEVOLVIDAS NAS SEGUINTES CONDIÇÕES:</span><br/><br/>Com as etiquetas e lacres intactos;<br/>Na embalagem original, não danificada. Embalagens plásticas e adesivos de proteção, garantias e folhetos explicativos são considerados parte do produto;<br/>Não lavadas e nem usadas, sem odores, sem manchas e sem alterações feitas pelo cliente, como por exemplo, ajustes de bainhas e outros.<br/>É necessário a nota fiscal eletrônica (DANFE) ou uma cópia dela. <br/><br/>LEMBRETE! Caso a USE 33 entenda que o produto devolvido não se enquadra nos critérios acima, o site fica dispensado de aceitar a devolução ou fazer a troca. A Levi’s pode, então, reenviar o produto ao cliente sem consulta prévia, acompanhado da justificativa do motivo da recusa.<br/><br/><span class=\"t-heading-3\">ESTORNO:</span><br/><br/>Varia de acordo com o método de pagamento utilizado no pedido efetuado:<br/><br/>Via Cartão de Crédito<br/><br/>Crédito em formato de cupom de desconto a ser utilizado em compras futuras ou estorno no mesmo cartão de crédito utilizado para efetuar o pagamento da devolução em questão. Lembrando que as operadoras de cartão de crédito podem demorar até duas faturas subsequentes ao mês de solicitação do estorno para realizar o crédito.<br/><br/>Via Boleto<br/><br/>Crédito em formato de cupom de desconto a ser utilizado em compras futura ou depósito bancário no valor da devolução em questão na conta indicada pelo consumidor. O prazo de reembolso é de até dez (10) dias úteis, após o recebimento da devolução.<br/><br/>O PROCESSO DE ESTORNO<br/><br/>Estando os itens devolvidos dentro das condições de devolução, o nosso departamento financeiro irá autorizar o crédito referente à sua devolução que será estornado e creditado em sua conta ou utilizado para o pagamento do seu pedido reserva de troca. Você será notificado quando o valor for liberado. <br/><br/>A confirmação do estorno é de até 15 dias úteis, após o recebimento da devolução em nosso estoque. Você também será comunicado por e-mail destas etapas.<br/><br/>Lembrando que as operadoras de cartão de crédito podem demorar até duas faturas subsequentes ao mês de solicitação do estorno para realizar o crédito.<br/><br/>"
+    }
+  },
+  "store.home.custom#seguranca-e-privacidade": {
+    "blocks": ["institutional-page"],
+    "props": {
+      "headline": "Segurança e Privacidade",
+      "html": "A USE 33 tem o compromisso com a privacidade e a segurança de seus clientes durante todo o processo de navegação e compra pelo site. Seus dados cadastrais como nome, endereço e CPF nunca serão vendidos ou trocados e só serão divulgados para terceiros quando tais informações forem necessárias para o processo de entrega e para cobrança. Seus dados pessoais são peça fundamental para que seu pedido chegue em segurança, na sua casa!<br/><br/>A Use 33 utiliza cookies e informações de sua navegação (sessão do browser) com o objetivo de traçar um perfil do público que visita o site e aperfeiçoar sempre nossos serviços, produtos, conteúdos e garantir as melhores ofertas e promoções para você. Durante todo este processo mantemos suas informações em sigilo absoluto. Vale lembrar que seus dados são registrados pela Use 33 de forma automatizada, dispensando manipulação humana.<br/><br/>Para que estes dados permaneçam seguros evite compartilhar sua senha com outras pessoas, mesmo que sejam amigos e parentes.<br/><br/> <span class=\"t-heading-3\">Cadastre-se e compre com tranquilidade, sem preocupações.</span><br/><br/>As alterações sobre nossa política de privacidade serão devidamente informadas neste espaço.<br/><br/>"
+    }
+  }
+}

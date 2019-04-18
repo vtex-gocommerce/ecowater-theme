@@ -1,0 +1,25 @@
+.container {
+  max-width: 96rem;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+
+.title {
+  font-weight: 400;
+  color: #183b56;
+  padding: 2rem 0 1rem 1rem;
+  justify-content: left;
+  font-size: 1.3rem;
+}
+
+.arrow {
+  color: #183b56;
+}
+
+.arrowLeft {
+  left: -2rem;
+}
+
+.arrowRight {
+  right: -2rem;
+}

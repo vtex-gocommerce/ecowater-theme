@@ -1,0 +1,321 @@
+.logoContainer {
+  display: block;
+  max-width: 100px;
+  min-width: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.searchBarContainer label div {
+  justify-content: flex-end;
+}
+
+.searchBarContainer input {
+  color: #364350;
+  border: none;
+  padding: 15px 0 15px 30px !important;
+  height: 48px;
+  max-width: 6rem;
+}
+
+.searchBarContainer input:focus {
+  border: 1px solid #dce6f1;
+  max-width: 20rem;
+}
+
+.searchBarContainer input::-webkit-input-placeholder, .searchBarContainer input::-moz-placeholder, .searchBarContainer input:-ms-input-placeholder, .searchBarContainer input:-moz-placeholder {
+  color: #364350;
+}
+
+.searchBarContainer input + span {
+  right: 4rem !important;
+}
+
+.searchBarContainer input:focus + span {
+  right: 17.5rem !important;
+}
+
+.searchBarContainer input + span svg {
+  color: #364350;
+  width: 18px;
+  height: 18px;
+}
+
+.notificationContent a {
+  color: #FFF;
+}
+
+.infoCardContainer--hero {
+  max-width: 96rem;
+  margin: 0 auto;
+  padding: 3rem 0;
+  border-bottom: 2px solid #dce6f1;
+}
+
+.infoCardContainer--hero .infoCardTextContainer {
+  width: auto;
+  max-width: 25rem;
+}
+
+.infoCardContainer--hero .infoCardHeadline {
+  max-width: 19rem;
+  line-height: 2.5rem;
+  font-weight: 500;
+}
+
+.infoCardContainer--hero .infoCardSubhead {
+  margin-top: 0;
+  line-height: 2rem;
+  font-size: 1.1rem;
+}
+
+.infoCardContainer--hero .infoCardCallActionContainer button {
+  text-transform: none;
+  font-size: 0.9rem;
+}
+
+.infoCardContainer--homeCard1 {
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+}
+
+.infoCardContainer--homeCard1 .infoCardCallActionContainer button {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.infoCardContainer--homeCard1 > div {
+  width: 100%;
+}
+
+.infoCardContainer--homeCard1,
+.infoCardContainer--homeCard2,
+.infoCardContainer--homeCard3 {
+  height: 97.5%;
+  padding: 0;
+  margin: 0.5rem;
+  border-radius: 2px;
+  box-shadow: 0px 2px 7px #d2d2d2;
+}
+
+.infoCardContainer--homeCard1 .infoCardTextContainer,
+.infoCardContainer--homeCard2 .infoCardTextContainer,
+.infoCardContainer--homeCard3 .infoCardTextContainer {
+  width: auto;
+  padding: 1rem;
+}
+
+.infoCardContainer--homeCard2 .infoCardTextContainer + div,
+.infoCardContainer--homeCard3 .infoCardTextContainer + div {
+  width: auto;
+}
+
+.infoCardContainer--homeCard2 .infoCardTextContainer + div img,
+.infoCardContainer--homeCard3 .infoCardTextContainer + div img {
+  max-width: 20rem;
+}
+
+.infoCardContainer--homeCard1 .infoCardHeadline,
+.infoCardContainer--homeCard2 .infoCardHeadline,
+.infoCardContainer--homeCard3 .infoCardHeadline {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.infoCardContainer--homeCard1 .infoCardSubhead,
+.infoCardContainer--homeCard2 .infoCardSubhead,
+.infoCardContainer--homeCard3 .infoCardSubhead {
+  margin: 0.8rem 0 0;
+  font-size: 0.95rem;
+  line-height: 1.5rem;
+  color: #000;
+}
+
+.infoCardContainer--homeCard1 .infoCardCallActionContainer,
+.infoCardContainer--homeCard2 .infoCardCallActionContainer,
+.infoCardContainer--homeCard3 .infoCardCallActionContainer {
+  text-decoration: none;
+  margin: 1rem 0 0.5rem;
+}
+
+.infoCardContainer--homeCard1 .infoCardCallActionContainer p,
+.infoCardContainer--homeCard2 .infoCardCallActionContainer p,
+.infoCardContainer--homeCard3 .infoCardCallActionContainer p {
+  margin: 0;
+  color: #2294ed;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.infoCardContainer--homeCard1 .infoCardCallActionContainer p:after,
+.infoCardContainer--homeCard2 .infoCardCallActionContainer p:after,
+.infoCardContainer--homeCard3 .infoCardCallActionContainer p:after {
+  content: ">";
+  margin-left: 0.4rem;
+}
+
+
+div[class='vtex-carousel'] div[class*='slick-dots'] {
+  bottom: 40px;
+}
+
+div[class='vtex-carousel'] div[class*='slick-dots'] li button:before {
+  color: #efeff1;
+  opacity: 1;
+}
+
+div[class='vtex-carousel'] div[class*='slick-dots'] :global(.slick-active) button:before {
+  color: #fff;
+}
+
+.productNameContainer {
+  font-size: 0.875rem;
+  line-height: 18px;
+}
+
+.productBrand {
+  font-size: 0.875rem;
+}
+
+.listPriceLabel,
+.listPriceValue {
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.sellingPriceLabel,
+.sellingPrice {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.skuSelectorContainer {
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.skuSelectorNameContainer > div {
+  margin-left: 0;
+}
+
+.skuSelectorName {
+  color: #142032;
+  font-weight: 600;
+}
+
+.skuSelectorItem {
+  height: 50px;
+  width: 50px;
+  border-radius: 4px;
+}
+
+.frameAround:global(.b--action-primary.ba) {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 4px;
+  z-index: 2;
+}
+
+.skuSelectorItemImage :global(.b--muted-4),
+.skuSelectorItem :global(.b--muted-4) {
+  border-radius: 4px;
+}
+
+.skuSelectorItem div:global(.c-on-base.center.pl5.pr5.z-1) {
+  padding: 0;
+}
+
+.skuSelectorSubcontainer {
+  margin-bottom: 1rem;
+}
+
+.shippingContainer {
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.shippingZipcodeLabel {
+  font-size: 0.875rem;
+  margin-bottom: 0;
+}
+
+.shippingContainer input {
+  height: 40px;
+  border-width: 1px;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.shippingTable {
+  margin-top: 10px;
+  width: 100%;
+  border: 1px solid #d8d8d8;
+}
+
+.shippingTableLabel,
+.shippingTableCell {
+  color: #142032;
+}
+
+.shareContainer {
+  display: flex;
+  align-items: center;
+}
+
+.shareLabel {
+  margin-right: 1rem;
+  margin-bottom: 0px;
+}
+
+.specificationsTable {
+  border: 1px solid #d8d8d8;
+  border-radius: 4px;
+}
+
+.specificationsTable thead {
+  display: none;
+}
+
+.specificationsTable tbody tr:nth-child(even) {
+  background-color: #f6f6f6;
+}
+
+.specificationsTable td,
+.specificationsTable th {
+  padding: 10px;
+  font-size: 0.875rem;
+  font-weight: normal;
+}
+
+.carouselGaleryCursor :global(.swiper-caret-next) svg,
+.carouselGaleryCursor :global(.swiper-caret-prev) svg {
+  color: #000;
+}
+
+.carouselGaleryCursor :global(.swiper-caret-next.c-disabled) svg,
+.carouselGaleryCursor :global(.swiper-caret-prev.c-disabled) svg {
+  color: #ededed;
+}
+
+.carouselGaleryCursor :global(.swiper-pagination-bullet) {
+  color: #000;
+}
+
+@media screen and (min-width: 40em) {
+  .logoContainer {
+    max-width: 170px;
+  }
+
+  .arrowLeft {
+    left: -50px !important;
+  }
+
+  .arrowRight {
+    right: -50px !important;
+  }
+}
