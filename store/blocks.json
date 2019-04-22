@@ -44,7 +44,7 @@
   },
   "header-row#desktop-1": {
     "children": [
-      "menu-link"
+      "menu-link#header"
     ],
     "props": {
       "blockClass": "topbar"
@@ -71,7 +71,7 @@
       "blockClass": "main"
     }
   },
-  "menu-link": {
+  "menu-link#header": {
     "props": {
       "links": [
         {
@@ -139,81 +139,503 @@
     }
   },
   "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-1",
+      "flex-layout.row#footer-2",
+      "flex-layout.row#footer-3"
+    ]
+  },
+  "flex-layout.row#footer-1": {
+    "children": [
+      "flex-layout.col#footer-1-col-1",
+      "flex-layout.col#footer-1-col-2",
+      "flex-layout.col#footer-1-col-3",
+      "flex-layout.col#footer-1-col-4"
+    ],
     "props": {
-      "showPaymentFormsInColor": true,
-      "showSocialNetworksInColor": true,
-      "showVtexLogoInColor": false,
+      "blockClass": "footerGrid-1"
+    }
+  },
+  "flex-layout.col#footer-1-col-1": {
+    "children": [
+      "menu#footer-categories-1",
+      "menu#footer-categories-4",
+      "menu#footer-categories-7"
+    ],
+    "props": {
+      "blockClass": "footer-categories"
+    }
+  },
+  "flex-layout.col#footer-1-col-2": {
+    "children": [
+      "menu#footer-owner-center",
+      "menu#footer-resources"
+    ],
+    "props": {
+      "blockClass": "footer-institucional"
+    }
+  },
+  "flex-layout.col#footer-1-col-3": {
+    "children": [
+      "menu#footer-promotions"
+    ],
+    "props": {
+      "blockClass": "footer-promotions"
+    }
+  },
+  "flex-layout.col#footer-1-col-4": {
+    "children": [
+      "menu#footer-about-us",
+      "menu#footer-contact",
+      "menu#footer-account-help",
+      "menu#footer-delivery",
+      "menu#footer-installation",
+      "menu#footer-filter-subscription",
+      "menu#footer-owners-manuals",
+      "menu#footer-patents"
+    ],
+    "props": {
+      "blockClass": "footer-links-column"
+    }
+  },
+  "flex-layout.row#footer-2": {
+    "children": [
+      "rich-text#footer-copyright",
+      "menu#footer-2",
+      "social-networks#footer"
+    ],
+    "props": {
+      "blockClass": "footerGrid-2"
+    }
+  },
+  "flex-layout.row#footer-3": {
+    "children": [
+      "powered-by"
+    ],
+    "props": {
+      "blockClass": "footerGrid-3"
+    }
+  },
+  "menu#footer-categories-1": {
+    "props": {
+      "categoryId": 1,
+      "orientation": "vertical"
+    }
+  },
+  "menu#footer-categories-4": {
+    "props": {
+      "categoryId": 4,
+      "orientation": "vertical"
+    }
+  },
+  "menu#footer-categories-7": {
+    "props": {
+      "categoryId": 7,
+      "orientation": "vertical",
+      "textType": "heading3"
+    }
+  },
+  "menu#footer-owner-center": {
+    "props": {
+      "orientation": "vertical",
+      "title": {
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "#",
+          "text": "Owner Center"
+        }
+      }
+    },
+    "children": [
+      "menu-item#footer-owner-center-1",
+      "menu-item#footer-owner-center-2",
+      "menu-item#footer-owner-center-3",
+      "menu-item#footer-owner-center-4",
+      "menu-item#footer-owner-center-5"
+    ]
+  },
+  "menu-item#footer-owner-center-1": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "text": "Warranty login"
+      }
+    }
+  },
+  "menu-item#footer-owner-center-2": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "text": "Maintenance reminders"
+      }
+    }
+  },
+  "menu-item#footer-owner-center-3": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "text": "Product registration"
+      }
+    }
+  },
+  "menu-item#footer-owner-center-4": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "text": "Replacement parts"
+      }
+    }
+  },
+  "menu-item#footer-owner-center-5": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "text": "Extended warrant"
+      }
+    }
+  },
+  "menu#footer-resources": {
+    "props": {
+      "orientation": "vertical",
+      "title": {
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "#",
+          "text": "Resources"
+        }
+      }
+    },
+    "children": [
+      "menu-item#footer-resources-1",
+      "menu-item#footer-resources-2",
+      "menu-item#footer-resources-3",
+      "menu-item#footer-resources-4",
+      "menu-item#footer-resources-5",
+      "menu-item#footer-resources-6",
+      "menu-item#footer-resources-7",
+      "menu-item#footer-resources-8"
+    ]
+  },
+  "menu-item#footer-resources-1": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "text": "Why Does My Water Smell? 5 Common Smells & Theis Causes"
+      }
+    }
+  },
+  "menu-item#footer-resources-2": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "text": "Hard Water Basics"
+      }
+    }
+  },
+  "menu-item#footer-resources-3": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "text": "How Reverse Osmosis Filtration Works"
+      }
+    }
+  },
+  "menu-item#footer-resources-4": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "text": "Water Contaminants Guide"
+      }
+    }
+  },
+  "menu-item#footer-resources-5": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "text": "Filtered vs. Bottled Water"
+      }
+    }
+  },
+  "menu-item#footer-resources-6": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "text": "Water Quiz"
+      }
+    }
+  },
+  "menu-item#footer-resources-7": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#footer-resources-8": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "text": "Blog"
+      }
+    }
+  },
+  "menu#footer-promotions": {
+    "props": {
+      "orientation": "vertical",
+      "title": {
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "#",
+          "text": "Promotions"
+        }
+      }
+    },
+    "children": [
+      "menu-item#footer-promotions-1",
+      "menu-item#footer-promotions-2",
+      "menu-item#footer-promotions-3"
+    ]
+  },
+  "menu-item#footer-promotions-1": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "text": "Save 10% on your first order when you create an account!"
+      }
+    }
+  },
+  "menu-item#footer-promotions-2": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "text": "Buy one filter, get one free."
+      }
+    }
+  },
+  "menu-item#footer-promotions-3": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "text": "Until May, all softener purchases come with a year's supply of salt."
+      }
+    }
+  },
+  "menu#footer-about-us": {
+    "props": {
+      "orientation": "vertical",
+      "title": {
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "#",
+          "text": "About us"
+        }
+      }
+    }
+  },
+  "menu#footer-contact": {
+    "props": {
+      "orientation": "vertical",
+      "title": {
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "#",
+          "text": "Contact"
+        }
+      }
+    }
+  },
+  "menu#footer-account-help": {
+    "props": {
+      "orientation": "vertical",
+      "title": {
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "#",
+          "text": "Account & help"
+        }
+      }
+    }
+  },
+  "menu#footer-delivery": {
+    "props": {
+      "orientation": "vertical",
+      "title": {
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "#",
+          "text": "Delivery"
+        }
+      }
+    }
+  },
+  "menu#footer-installation": {
+    "props": {
+      "orientation": "vertical",
+      "title": {
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "#",
+          "text": "Installation"
+        }
+      }
+    }
+  },
+  "menu#footer-filter-subscription": {
+    "props": {
+      "orientation": "vertical",
+      "title": {
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "#",
+          "text": "Filter subscription"
+        }
+      }
+    }
+  },
+  "menu#footer-owners-manuals": {
+    "props": {
+      "orientation": "vertical",
+      "title": {
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "#",
+          "text": "Owner's Manuals"
+        }
+      }
+    }
+  },
+  "menu#footer-patents": {
+    "props": {
+      "orientation": "vertical",
+      "title": {
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "#",
+          "text": "Patents"
+        }
+      }
+    }
+  },
+  "rich-text#footer-copyright": {
+    "props": {
+      "text": "Manufactured under license by Ecodyne, PO Box 64420, St Paul, MN, 55164\n(R) 2016 Whirlpool Corporation. All rights Reserved.",
+      "blockClass": "copyright"
+    }
+  },
+  "menu#footer-2": {
+    "children": [
+      "menu-item#footer-privacy-policy",
+      "menu-item#footer-terms-conditions",
+      "menu-item#footer-security-information"
+    ]
+  },
+  "menu-item#footer-privacy-policy": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "text": "Privacy Policy"
+      }
+    }
+  },
+  "menu-item#footer-terms-conditions": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "text": "Terms & Conditions"
+      }
+    }
+  },
+  "menu-item#footer-security-information": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "text": "Security Information"
+      }
+    }
+  },
+  "social-networks#footer": {
+    "props": {
+      "showInColor": false,
       "socialNetworks": [
         {
-          "__editorItemTitle": "Facebook",
-          "socialNetwork": "Facebook",
-          "url": "https://www.facebook.com/usetrintaetres"
+          "url": "",
+          "name": "Facebook"
         },
         {
-          "__editorItemTitle": "Instagram",
-          "socialNetwork": "Instagram",
-          "url": "https://www.instagram.com/USETRINTAETRES/"
-        }
-      ],
-      "sectionLinks": [
-        {
-          "__editorItemTitle": "Institucional",
-          "title": "Institucional",
-          "links": [
-            {
-              "__editorItemTitle": "Política de venda",
-              "title": "Política de venda",
-              "url": "/politica-de-venda"
-            },
-            {
-              "__editorItemTitle": "Formas de pagamento",
-              "title": "Formas de pagamento",
-              "url": "/formas-de-pagamento"
-            },
-            {
-              "__editorItemTitle": "Política de troca e devoluções",
-              "title": "Política de troca e devoluções",
-              "url": "/politica-de-troca-e-devolucoes"
-            },
-            {
-              "__editorItemTitle": "Segurança e Privacidade",
-              "title": "Segurança e Privacidade",
-              "url": "seguranca-e-privacidade"
-            }
-          ]
+          "url": "",
+          "name": "Twitter"
         },
         {
-          "__editorItemTitle": "Contato",
-          "title": "Contato",
-          "links": [
-            {
-              "__editorItemTitle": "E-mail: contato@use33.com.br",
-              "title": "E-mail: contato@use33.com.br",
-              "url": "mailto:contato@use33.com.br"
-            }
-          ]
-        }
-      ],
-      "badges": [],
-      "paymentForms": [
-        {
-          "__editorItemTitle": "Crédito",
-          "title": "Crédito",
-          "paymentTypes": ["MasterCard", "Visa", "Diners Club"]
-        }
-      ],
-      "storeInformations": [
-        {
-          "__editorItemTitle": "Informação da Loja",
-          "storeInformation": "Todas as regras e promoções são válidas apenas para produtos vendidos e entregues pela nossa Loja. O valor de oferta do produto será garantido após a finalização da compra. Havendo divergência, prevalecerá o menor preço ofertado. \n\n\nStore pictures: https://photos.icons8.com"
-        },
-        {
-          "__editorItemTitle": "Endereço",
-          "storeInformation": "CNPJ: 30.355.840/0001-38 - USE 33 COMERCIO DE VESTUARIO LTDA"
+          "url": "",
+          "name": "Instagram"
         }
       ]
     }
   },
+
+
+
+
+
+
+
+
   "notification.bar": {
     "props": {
       "content": "<strong>SUMMER SALE!</strong> Save 10% on our 30.000-grain softner. <a href='#' class='white'>Learn More</a>"
@@ -222,7 +644,7 @@
   "info-card#home": {
     "props": {
       "isFullModeStyle": true,
-      "headline": "Enjoy pure water every time you turn the faucet",
+      "headline": "Enjoy <span>pure water</span> every time you turn the faucet",
       "subhead": "Your and your family rely on clean water to stay healthy. Don't let hard or contamined water get in the way of that. Take back control with a water solution designed around your unique needs.",
       "callToActionText": "Shop water solutions",
       "callToActionUrl": "/water-softeners/d",

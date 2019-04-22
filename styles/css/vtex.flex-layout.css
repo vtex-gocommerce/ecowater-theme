@@ -6,3 +6,54 @@
   background: #f7f7f7;
   padding: 4rem 2rem;
 }
+
+.flexRow--footerGrid-1 {
+  margin: 2rem 0;
+}
+
+.flexRow--footerGrid-1 div[class*='w-100']:nth-child(1) {
+  width: 80%
+}
+.flexRow--footerGrid-1 div[class*='w-100']:nth-child(2) {
+  width: 80%
+}
+.flexRow--footerGrid-1 div[class*='w-100']:nth-child(3) {
+
+}
+.flexRow--footerGrid-1 div[class*='w-100']:nth-child(4) {
+  width: 60%
+}
+
+.flexRow--footerGrid-1 .flexCol {
+  padding: 0 2rem;
+}
+
+.flexRow--footerGrid-1 .flexCol nav [class*='t-body c-muted-1'] {
+  font-size: 0.9rem;
+}
+
+.flexRow--footerGrid-1 .flexCol--footer-categories nav, .flexRow--footerGrid-1 .flexCol--footer-institucional nav {
+  margin-bottom: 1.5rem;
+}
+
+.flexRow--footerGrid-2, .flexRow--footerGrid-3 {
+  background: #e7eef5;
+}
+
+.flexCol--footer-promotions nav li {
+  padding: 0.5rem 0;
+  margin-left: 1.5rem;
+  border-bottom: 1px solid #e7ecf0;
+}
+
+.flexCol--footer-promotions nav li > * {
+  margin-left: 0;
+}
+
+.flexCol--footer-promotions nav li:last-child {
+  border: none;
+}
+
+.flexRow--footerGrid-2 nav li [class*='t-body'] {
+  font-size: 0.8rem;
+}
