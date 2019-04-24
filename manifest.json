@@ -8,8 +8,7 @@
   "builders": {
     "styles": "1.x",
     "store": "0.x",
-    "react": "3.x",
-    "messages": "1.x"
+    "react": "3.x"
   },
   "dependencies": {
     "gocommerce.institutional-page": "1.x",

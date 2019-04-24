@@ -1,9 +1,14 @@
 .logoContainer {
   display: block;
   max-width: 100px;
-  min-width: auto;
+  min-width: 100px;
   padding-top: 0;
   padding-bottom: 0;
+}
+
+.searchBarContainer {
+  flex: auto;
+  width: auto;
 }
 
 .searchBarContainer label div {
@@ -41,6 +46,10 @@
   height: 18px;
 }
 
+.notificationBarInner {
+  padding: 0 1rem;
+}
+
 .notificationContent a {
   color: #FFF;
 }
@@ -54,11 +63,10 @@
 
 .infoCardContainer--hero .infoCardTextContainer {
   width: auto;
-  max-width: 23rem;
+  max-width: 29rem;
 }
 
 .infoCardContainer--hero .infoCardHeadline {
-  max-width: 19rem;
   line-height: 2.5rem;
   font-weight: 500;
 }
@@ -115,7 +123,7 @@
 
 .infoCardContainer--homeCard2 .infoCardTextContainer + div img,
 .infoCardContainer--homeCard3 .infoCardTextContainer + div img {
-  max-width: 20rem;
+  width: 20rem;
 }
 
 .infoCardContainer--homeCard1 .infoCardHeadline,
@@ -309,16 +317,8 @@ div[class='vtex-carousel'] div[class*='slick-dots'] :global(.slick-active) butto
   color: #000;
 }
 
-@media screen and (min-width: 40em) {
+@media screen and (max-width: 640px) {
   .logoContainer {
-    max-width: 170px;
-  }
-
-  .arrowLeft {
-    left: -50px !important;
-  }
-
-  .arrowRight {
-    right: -50px !important;
+    padding: 0.4rem 0 0;
   }
 }

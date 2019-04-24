@@ -4,6 +4,10 @@
   padding-bottom: 1rem;
 }
 
+.container [class*='flex justify-center'] + [class*='flex justify-center'] {
+  margin: 0 2rem;
+}
+
 .title {
   font-weight: 400;
   color: #183b56;

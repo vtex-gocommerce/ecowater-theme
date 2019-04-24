@@ -12,7 +12,7 @@
   text-transform: uppercase;
 }
 
-.container > div > [class*='vtex-button'] svg, .label {
+.buttonLink [class*='gray'], .container > div > [class*='vtex-button'] svg, .label {
   color: #364350;
 }
 

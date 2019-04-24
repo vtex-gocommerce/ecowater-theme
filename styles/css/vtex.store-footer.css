@@ -7,6 +7,32 @@
 
 }
 
+.socialNetworksContainer {
+  margin: 0.6rem 0 0.6rem 3rem;
+}
+
+.socialNetworkLink {
+  margin: 0;
+}
+
+.socialNetworkLink .socialNetworkImage {
+  filter: brightness(0) saturate(100%) invert(42%) sepia(53%) saturate(264%) hue-rotate(168deg) brightness(95%) contrast(95%);
+  max-width: 1.5rem;
+}
+
 .poweredBy {
-  margin: 1rem auto 0;
+  padding-top: 1rem;
+  margin: 0 auto;
+}
+
+.poweredByImage {
+  max-width: 3rem;
+}
+
+@media screen and (max-width: 640px) {
+  .socialNetworksContainer {
+    margin: 0 auto;
+    padding: 1rem 0;
+    justify-content: center;
+  }
 }

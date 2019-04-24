@@ -9,7 +9,7 @@
 }
 
 .container > section > ul {
-  height: 3rem;
+  min-height: 3rem;
 }
 
 .itemContainer > a {

@@ -1,8 +1,3 @@
-/* Force header size to prevent wrong size */
-.container + :global(.z-1.bg-base.w-100.relative) {
-  /* height: 144px !important; */
-}
-
 .headerRow--topbar {
   border-bottom: 1px solid #dce6f1;
 }
@@ -10,6 +5,19 @@
 .headerRow--main {
   background: #FFF;
   border-bottom: 2px solid #dce6f1;
+}
+
+.headerRow--main nav li [class*='t-body'] {
+  font-size: 0.9rem;
+  vertical-align: text-top;
+}
+
+.headerRow--main nav li [class*='pv4'] {
+  padding: 0 0 0.75rem;
+}
+
+.headerRow--main nav nav li [class*='t-small'] {
+  white-space: nowrap;
 }
 
 .topMenuContainer,
@@ -22,21 +30,20 @@
   display: none;
 }
 
-.topMenuCollapsible:global(.bw1) {
-  border-width: 1px;
-}
-
-@media screen and (min-width: 40em) {
-  .topMenuContainer {
-    height: 80px;
+@media screen and (max-width: 640px) {
+  .headerRow--mobile-main section {
+    padding: 0.5rem 0;
+    border-top: 2px solid #dce6f1;
+  }
+  .headerRow--mobile-main nav [class*='flex-row'] {
+    flex-wrap: wrap;
+  }
+  .headerRow--mobile-main nav [class*='flex-row'] li {
+    width: 50%;
+  }
+  .headerRow--mobile-main nav [class*='flex-row'] li [class*='mh6 pv5'] {
+    padding: 0.5rem 0;
+    margin: 0 1rem;
   }
 
-  .topMenuSearchBar {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
-  .topMenuSearchBar > :global(.w-75) {
-    width: 100%;
-  }
 }

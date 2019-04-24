@@ -64,14 +64,249 @@
   "header-row#desktop-3": {
     "children": [
       "logo",
-      "category-menu"
+      "menu#menu"
     ],
     "props": {
       "sticky": true,
       "blockClass": "main"
     }
   },
+  "header-layout.mobile": {
+    "children": [
+      "header-row#mobile-1",
+      "header-row#mobile-2",
+      "header-row#mobile-3"
+    ]
+  },
+  "header-row#mobile-1": {
+    "children": [
+      "telemarketing"
+    ],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "header-row#mobile-2": {
+    "children": [
+      "logo",
+      "search-bar",
+      "login",
+      "minicart"
+    ]
+  },
+  "header-row#mobile-3": {
+    "children": [
+      "menu#menu"
+    ],
+    "props": {
+      "blockClass": "mobile-main"
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+  "menu#menu": {
+    "children": [
+      "menu-item#menu-undersink",
+      "menu-item#menu-wholehome",
+      "menu-item#menu-watersoftner",
+      "menu-item#menu-learningcenter"
+    ]
+  },
+  "menu-item#menu-undersink": {
+    "props": {
+      "id": "menu-item-undersink",
+      "type": "category",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "categoryId": 1
+      }
+    }
+  },
+  "menu-item#menu-wholehome": {
+    "props": {
+      "id": "menu-item-wholehome",
+      "type": "category",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "categoryId": 4
+      }
+    }
+  },
+  "menu-item#menu-watersoftner": {
+    "props": {
+      "id": "menu-item-watersoftner",
+      "type": "category",
+      "itemProps": {
+        "categoryId": 7
+      }
+    }
+  },
+  "menu-item#menu-learningcenter": {
+    "props": {
+      "id": "menu-item-learningcenter",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Learning Center",
+        "text": "Learning Center"
+      }
+    },
+    "blocks": [
+      "submenu#menu-learningcenter"
+    ]
+  },
+  "submenu#menu-learningcenter": {
+    "children": [
+      "menu#menu-learningcenter"
+    ]
+  },
+  "menu#menu-learningcenter": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#menu-learningcenterItem1",
+      "menu-item#menu-learningcenterItem2",
+      "menu-item#menu-learningcenterItem3",
+      "menu-item#menu-learningcenterItem4",
+      "menu-item#menu-learningcenterItem5",
+      "menu-item#menu-learningcenterItem6"
+    ]
+  },
+  "menu-item#menu-learningcenterItem1": {
+    "props": {
+      "id": "menu-item-learningcenterItem1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/why-my-water-smells",
+        "noFollow": true,
+        "tagTitle": "Why Does My Water Smell?",
+        "text": "Why Does My Water Smell?"
+      }
+    }
+  },
+  "menu-item#menu-learningcenterItem2": {
+    "props": {
+      "id": "menu-item-learningcenterItem2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "/hard-water-basics",
+        "noFollow": true,
+        "tagTitle": "Hard Water Basics",
+        "text": "Hard Water Basics"
+      }
+    }
+  },
+  "menu-item#menu-learningcenterItem3": {
+    "props": {
+      "id": "menu-item-learningcenterItem3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "/water-contaminants-guide",
+        "noFollow": true,
+        "tagTitle": "Water Contaminants Guide",
+        "text": "Water Contaminants Guide"
+      }
+    }
+  },
+  "menu-item#menu-learningcenterItem4": {
+    "props": {
+      "id": "menu-item-learningcenterItem4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#menu-learningcenterItem5": {
+    "props": {
+      "id": "menu-item-learningcenterItem5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "/owners-manual",
+        "noFollow": true,
+        "tagTitle": "User Manuals",
+        "text": "User Manuals"
+      }
+    }
+  },
+  "menu-item#menu-learningcenterItem6": {
+    "props": {
+      "id": "menu-item-learningcenterItem6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About Us",
+        "text": "About Us"
+      }
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   "menu-link#header": {
+    "props": {
+      "links": [
+        {
+          "text": "Contact",
+          "typeOfRoute": "external",
+          "externalPage": "/contact-us",
+          "position": "right"
+        }
+      ]
+    }
+  },
+  "menu-link#header-old": {
     "props": {
       "links": [
         {
@@ -151,11 +386,17 @@
       "flex-layout.row#footer-3"
     ]
   },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer-1",
+      "flex-layout.row#footer-2",
+      "flex-layout.row#footer-3"
+    ]
+  },
   "flex-layout.row#footer-1": {
     "children": [
       "flex-layout.col#footer-1-col-1",
       "flex-layout.col#footer-1-col-2",
-      "flex-layout.col#footer-1-col-3",
       "flex-layout.col#footer-1-col-4"
     ],
     "props": {
@@ -174,7 +415,6 @@
   },
   "flex-layout.col#footer-1-col-2": {
     "children": [
-      "menu#footer-owner-center",
       "menu#footer-resources"
     ],
     "props": {
@@ -191,14 +431,12 @@
   },
   "flex-layout.col#footer-1-col-4": {
     "children": [
-      "menu#footer-about-us",
       "menu#footer-contact",
-      "menu#footer-account-help",
+      "menu#footer-account",
       "menu#footer-delivery",
       "menu#footer-installation",
       "menu#footer-filter-subscription",
-      "menu#footer-owners-manuals",
-      "menu#footer-patents"
+      "menu#footer-return-policy"
     ],
     "props": {
       "blockClass": "footer-links-column"
@@ -319,7 +557,7 @@
         "itemProps": {
           "type": "external",
           "href": "#",
-          "text": "Resources"
+          "text": "Learning Center"
         }
       }
     },
@@ -329,9 +567,7 @@
       "menu-item#footer-resources-3",
       "menu-item#footer-resources-4",
       "menu-item#footer-resources-5",
-      "menu-item#footer-resources-6",
-      "menu-item#footer-resources-7",
-      "menu-item#footer-resources-8"
+      "menu-item#footer-resources-6"
     ]
   },
   "menu-item#footer-resources-1": {
@@ -339,8 +575,8 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "#",
-        "text": "Why Does My Water Smell? 5 Common Smells & Theis Causes"
+        "href": "/why-my-water-smells",
+        "text": "Why Does My Water Smell?"
       }
     }
   },
@@ -349,7 +585,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "#",
+        "href": "/hard-water-basics",
         "text": "Hard Water Basics"
       }
     }
@@ -359,8 +595,8 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "#",
-        "text": "How Reverse Osmosis Filtration Works"
+        "href": "/water-contaminants-guide",
+        "text": "Water Contaminants Guide"
       }
     }
   },
@@ -369,8 +605,8 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "#",
-        "text": "Water Contaminants Guide"
+        "href": "/faq",
+        "text": "FAQ"
       }
     }
   },
@@ -379,8 +615,8 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "#",
-        "text": "Filtered vs. Bottled Water"
+        "href": "/owners-manual",
+        "text": "Owner's Manuals"
       }
     }
   },
@@ -389,28 +625,8 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "#",
-        "text": "Water Quiz"
-      }
-    }
-  },
-  "menu-item#footer-resources-7": {
-    "props": {
-      "type": "custom",
-      "itemProps": {
-        "type": "external",
-        "href": "#",
-        "text": "FAQ"
-      }
-    }
-  },
-  "menu-item#footer-resources-8": {
-    "props": {
-      "type": "custom",
-      "itemProps": {
-        "type": "external",
-        "href": "#",
-        "text": "Blog"
+        "href": "/about-us",
+        "text": "About Us"
       }
     }
   },
@@ -462,19 +678,6 @@
       }
     }
   },
-  "menu#footer-about-us": {
-    "props": {
-      "orientation": "vertical",
-      "title": {
-        "type": "custom",
-        "itemProps": {
-          "type": "external",
-          "href": "#",
-          "text": "About us"
-        }
-      }
-    }
-  },
   "menu#footer-contact": {
     "props": {
       "orientation": "vertical",
@@ -482,21 +685,21 @@
         "type": "custom",
         "itemProps": {
           "type": "external",
-          "href": "#",
+          "href": "/contact-us",
           "text": "Contact"
         }
       }
     }
   },
-  "menu#footer-account-help": {
+  "menu#footer-account": {
     "props": {
       "orientation": "vertical",
       "title": {
         "type": "custom",
         "itemProps": {
           "type": "external",
-          "href": "#",
-          "text": "Account & help"
+          "href": "/account",
+          "text": "My Account"
         }
       }
     }
@@ -508,8 +711,8 @@
         "type": "custom",
         "itemProps": {
           "type": "external",
-          "href": "#",
-          "text": "Delivery"
+          "href": "/delivery",
+          "text": "Delivery and Shipping"
         }
       }
     }
@@ -521,7 +724,7 @@
         "type": "custom",
         "itemProps": {
           "type": "external",
-          "href": "#",
+          "href": "/installation",
           "text": "Installation"
         }
       }
@@ -534,34 +737,21 @@
         "type": "custom",
         "itemProps": {
           "type": "external",
-          "href": "#",
-          "text": "Filter subscription"
+          "href": "/filter-subscription",
+          "text": "Filter Subscription"
         }
       }
     }
   },
-  "menu#footer-owners-manuals": {
+  "menu#footer-return-policy": {
     "props": {
       "orientation": "vertical",
       "title": {
         "type": "custom",
         "itemProps": {
           "type": "external",
-          "href": "#",
-          "text": "Owner's Manuals"
-        }
-      }
-    }
-  },
-  "menu#footer-patents": {
-    "props": {
-      "orientation": "vertical",
-      "title": {
-        "type": "custom",
-        "itemProps": {
-          "type": "external",
-          "href": "#",
-          "text": "Patents"
+          "href": "/return-policy",
+          "text": "Return Policy"
         }
       }
     }
@@ -575,8 +765,7 @@
   "menu#footer-2": {
     "children": [
       "menu-item#footer-privacy-policy",
-      "menu-item#footer-terms-conditions",
-      "menu-item#footer-security-information"
+      "menu-item#footer-terms-conditions"
     ]
   },
   "menu-item#footer-privacy-policy": {
@@ -584,7 +773,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "#",
+        "href": "/privacy-policy",
         "text": "Privacy Policy"
       }
     }
@@ -594,18 +783,8 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "#",
-        "text": "Terms & Conditions"
-      }
-    }
-  },
-  "menu-item#footer-security-information": {
-    "props": {
-      "type": "custom",
-      "itemProps": {
-        "type": "external",
-        "href": "#",
-        "text": "Security Information"
+        "href": "/terms-and-conditions",
+        "text": "Terms & Condition"
       }
     }
   },
@@ -614,15 +793,11 @@
       "showInColor": false,
       "socialNetworks": [
         {
-          "url": "",
+          "url": "https://www.facebook.com/Ecopurehomesolutions/",
           "name": "Facebook"
         },
         {
-          "url": "",
-          "name": "Twitter"
-        },
-        {
-          "url": "",
+          "url": "https://www.instagram.com/ecopurehomesolutions/",
           "name": "Instagram"
         }
       ]
@@ -636,18 +811,23 @@
 
 
 
+
+
+
+
+
   "notification.bar": {
     "props": {
-      "content": "<strong>SUMMER SALE!</strong> Save 10% on our 30.000-grain softner. <a href='#' class='white'>Learn More</a>"
+      "content": "<strong>FREE SHIPPING ON ALL ORDERS!</strong>"
     }
   },
   "info-card#home": {
     "props": {
       "isFullModeStyle": true,
-      "headline": "Enjoy <span>pure water</span> every time you turn the faucet",
-      "subhead": "Your and your family rely on clean water to stay healthy. Don't let hard or contamined water get in the way of that. Take back control with a water solution designed around your unique needs.",
-      "callToActionText": "Shop water solutions",
-      "callToActionUrl": "/water-softeners/d",
+      "headline": "Enjoy <span>pure water</span> throughout your home",
+      "subhead": "Your family relies on clean water to stay healthy. Choose from a high-quality selection of water softeners and filtration systems to remove water contaminants and hardness in your home. Take control with a water system designed around your unique needs.",
+      "callToActionText": "SHOP WATER FILTRATION",
+      "callToActionUrl": "/whole-home-water-filtration",
       "imageUrl": "https://ecowaterqa.vteximg.com.br/arquivos/ids/155512",
       "blockClass": "hero"
     }
@@ -728,20 +908,20 @@
   },
   "info-card#homeCard1": {
     "props": {
-      "headline": "Not sure which water solution you need?",
-      "subhead": "Take our quiz to find the best products for your home. In just minutes you will know how to solve your water problems.",
-      "callToActionText": "Take the quiz",
-      "callToActionUrl": "#",
+      "headline": "Wait...Hard Water Does What?",
+      "subhead": "Hard water could be costing you hundreds on cleaning products and harming your home’s infrastructure.",
+      "callToActionText": "LEARN MORE",
+      "callToActionUrl": "/hard-water-basics",
       "imageUrl": "https://ecowaterqa.vteximg.com.br/arquivos/ids/155512",
       "blockClass": "homeCard1"
     }
   },
   "info-card#homeCard2": {
     "props": {
-      "headline": "Ditch the bottled water and save!",
-      "subhead": "Discover how much money you could be saving by making the switch to in-home filtration.",
-      "callToActionText": "Read the article",
-      "callToActionUrl": "#",
+      "headline": "Ew...Why Does My Water Smell Like That?",
+      "subhead": "Water that smells is undrinkable. We tell you which smells could mean trouble for your home’s water.",
+      "callToActionText": "IDENTIFY YOUR WATER PROBLEM",
+      "callToActionUrl": "/why-my-water-smells",
       "imageUrl": "https://ecowaterqa.vteximg.com.br/arquivos/ids/155512",
       "callToActionMode": "link",
       "blockClass": "homeCard2"
@@ -749,10 +929,10 @@
   },
   "info-card#homeCard3": {
     "props": {
-      "headline": "Oo-Oo that smell...",
-      "subhead": "Learn more about common problems smells in home water and the causes behind them.",
-      "callToActionText": "See the infographic",
-      "callToActionUrl": "#",
+      "headline": "The Gross Things We Have Found in People’s Water",
+      "subhead": "Unfortunately, the threat of water contamination doesn’t stop at your city’s municipal center or neighborhood well.",
+      "callToActionText": "READ MORE",
+      "callToActionUrl": "/water-contaminants-guide",
       "imageUrl": "https://ecowaterqa.vteximg.com.br/arquivos/ids/155512",
       "callToActionMode": "link",
       "blockClass": "homeCard3"

@@ -2,6 +2,10 @@
   margin-top: 3rem;
 }
 
+.flexRow--homeBannerGrid > section {
+  padding: 0;
+}
+
 .flexRow--homeBannerGrid > section > div {
   background: #f7f7f7;
   padding: 4rem 2rem;
@@ -12,16 +16,19 @@
 }
 
 .flexRow--footerGrid-1 div[class*='w-100']:nth-child(1) {
-  width: 80%
+  /* width: 80%; */
+  width: 55%;
 }
 .flexRow--footerGrid-1 div[class*='w-100']:nth-child(2) {
-  width: 80%
+  /* width: 80%; */
+  width: 100%;
 }
 .flexRow--footerGrid-1 div[class*='w-100']:nth-child(3) {
-
+  /* width: 100%; */
+  width: 35%
 }
 .flexRow--footerGrid-1 div[class*='w-100']:nth-child(4) {
-  width: 60%
+  width: 60%;
 }
 
 .flexRow--footerGrid-1 .flexCol {
@@ -54,6 +61,33 @@
   border: none;
 }
 
+.flexRow--footerGrid-2 div[class*='w-100']:nth-child(3) {
+  width: auto;
+}
+
+.flexRow--footerGrid-2 nav ul {
+  justify-content: flex-end;
+}
+
 .flexRow--footerGrid-2 nav li [class*='t-body'] {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
+}
+
+
+@media screen and (max-width: 800px) {
+  .flexRow--homeBannerGrid [class*='mw9 center'] [class*='flex-none'] {
+    flex-wrap: wrap;
+  }
+  .flexRow--footerGrid-1 [class*='mw9 center'] [class*='flex-none'] {
+    flex-wrap: wrap;
+  }
+  .flexRow--footerGrid-1 [class*='mw9 center'] [class*='flex-none'] [class*='w-100'] {
+    width: 100%;
+  }
+  .flexRow--footerGrid-1 [class*='mw9 center'] [class*='flex-none'] [class*='w-100'] > * {
+    padding: 0;
+  }
+  .flexRow--footerGrid-1 .flexCol--footer-categories nav, .flexRow--footerGrid-1 .flexCol--footer-institucional nav, .flexRow--footerGrid-1 .flexCol--footer-promotions nav {
+    margin-bottom: 3rem;
+  }
 }
