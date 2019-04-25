@@ -166,6 +166,24 @@
   margin-left: 0.4rem;
 }
 
+.infoCardContainer--departmentBanner {
+  max-width: 96rem;
+  margin: 4rem auto 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 div[class='vtex-carousel'] div[class*='slick-dots'] {
   bottom: 40px;

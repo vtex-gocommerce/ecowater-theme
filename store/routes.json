@@ -1,14 +1,41 @@
 {
-  "store.home.custom#politica-de-venda": {
-    "path": "/politica-de-venda"
+  "store.content#why-my-water-smells": {
+    "path": "/why-my-water-smells"
   },
-  "store.home.custom#forma-de-pagamento": {
-    "path": "/formas-de-pagamento"
+  "store.content#hard-water-basics": {
+    "path": "/hard-water-basics"
   },
-  "store.home.custom#politica-de-troca-e-devolucoes": {
-    "path": "/politica-de-troca-e-devolucoes"
+  "store.content#water-contaminants-guide": {
+    "path": "/water-contaminants-guide"
   },
-  "store.home.custom#seguranca-e-privacidade": {
-    "path": "/seguranca-e-privacidade"
+  "store.content#faq": {
+    "path": "/faq"
+  },
+  "store.content#owners-manual": {
+    "path": "/owners-manual"
+  },
+  "store.content#about-us": {
+    "path": "/about-us"
+  },
+  "store.content#delivery": {
+    "path": "/delivery"
+  },
+  "store.content#installation": {
+    "path": "/installation"
+  },
+  "store.content#filter-subscription": {
+    "path": "/filter-subscription"
+  },
+  "store.content#return-policy": {
+    "path": "/return-policy"
+  },
+  "store.content#contact-us": {
+    "path": "/contact-us"
+  },
+  "store.content#privacy-policy": {
+    "path": "/privacy-policy"
+  },
+  "store.content#terms-and-conditions": {
+    "path": "/terms-and-conditions"
   }
 }

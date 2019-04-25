@@ -1,3 +1,14 @@
 {
-
+  "store.content" : {
+    "allowed": [
+      "content-blocks",
+      "contact-us"
+    ],
+    "before": [
+      "header.full"
+    ],
+    "after": [
+      "footer"
+    ]
+  }
 }

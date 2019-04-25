@@ -1,45 +1,57 @@
 .container {
-  padding-top: 1rem;
+  grid-template-columns: 230px repeat(4, auto) 306px;
+  -ms-grid-columns: 230px (1fr)[4] 306px;
 }
 
-.orderBy > div > label > div {
-  border-width: 1px;
-  border-radius: 4px;
-}
-
-.orderBy div:global(.vtex-dropdown__arrow) {
-  color: #142032;
-}
-
-.totalProducts span {
-  font-size: 0.9rem;
-  color: #142032;
-}
-
-.filters,
-.resultGallery {
-  margin-top: 1rem;
+@media screen and (min-width: 640px) {
+  .filters > * {
+    background: #fafafa;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
 }
 
 .filter {
   border: none;
-  padding-bottom: 0;
+}
+
+.filter [class*='overflow-y-auto'] > div {
+  height: auto !important;
+}
+
+.filterIcon {
+  display: none;
 }
 
 .filterTitle {
-  font-weight: 600;
+  color: #2f4e66;
 }
 
-.filterIcon svg {
+.filterContent {
+  padding-top: 0.5rem;
+}
+
+.filterContent a {
   display: block;
-  width: 10px;
-  height: 10px;
+  padding: 0.3rem 0;
 }
 
-.filter div:global(.ReactCollapse--content) {
-  padding: 10px 0 24px;
+.filterContent a span {
+  color: #404851;
 }
 
-.filter div:global(.ReactCollapse--content) a {
-  line-height: 22px;
+.resultGallery {
+  margin-bottom: 4rem;
+}
+
+.gallery {
+  margin-right: 0;
+}
+
+.galleryItem {
+  padding: 0;
+}
+
+.orderBy {
+  margin-right: 1rem;
 }

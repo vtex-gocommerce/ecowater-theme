@@ -1,6 +1,11 @@
 .link,
 .term {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+}
+
+.link svg {
+  max-width: 15px;
+  vertical-align: bottom;
 }
 
 .term {
