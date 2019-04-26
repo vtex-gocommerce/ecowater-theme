@@ -118,12 +118,14 @@
 
 .infoCardContainer--homeCard2 .infoCardTextContainer + div,
 .infoCardContainer--homeCard3 .infoCardTextContainer + div {
-  width: auto;
+  max-width: 20rem;
+  width: 100%;
 }
 
+.infoCardContainer--homeCard1 .infoCardTextContainer + div img,
 .infoCardContainer--homeCard2 .infoCardTextContainer + div img,
 .infoCardContainer--homeCard3 .infoCardTextContainer + div img {
-  width: 20rem;
+  display: block;
 }
 
 .infoCardContainer--homeCard1 .infoCardHeadline,
@@ -139,7 +141,7 @@
 .infoCardContainer--homeCard3 .infoCardSubhead {
   margin: 0.8rem 0 0;
   font-size: 0.95rem;
-  line-height: 1.5rem;
+  line-height: 1.3rem;
   color: #000;
 }
 
@@ -147,7 +149,7 @@
 .infoCardContainer--homeCard2 .infoCardCallActionContainer,
 .infoCardContainer--homeCard3 .infoCardCallActionContainer {
   text-decoration: none;
-  margin: 1rem 0 0.5rem;
+  margin: 1rem 0 0;
 }
 
 .infoCardContainer--homeCard1 .infoCardCallActionContainer p,
@@ -170,20 +172,6 @@
   max-width: 96rem;
   margin: 4rem auto 1rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 div[class='vtex-carousel'] div[class*='slick-dots'] {
   bottom: 40px;
@@ -306,9 +294,9 @@ div[class='vtex-carousel'] div[class*='slick-dots'] :global(.slick-active) butto
   border-radius: 4px;
 }
 
-.specificationsTable thead {
+/* .specificationsTable thead {
   display: none;
-}
+} */
 
 .specificationsTable tbody tr:nth-child(even) {
   background-color: #f6f6f6;
@@ -321,9 +309,21 @@ div[class='vtex-carousel'] div[class*='slick-dots'] :global(.slick-active) butto
   font-weight: normal;
 }
 
+.carouselGaleryCursor [class*='swiper-container'] {
+  margin: 5px;
+  box-shadow: 0px 0px 7px #e2e2e2;
+}
+
+.carouselGaleryThumbs [class*='swiper-slide'] img {
+  margin: 4px;
+  box-shadow: 0px 0px 7px #e2e2e2;
+  max-width: 100%;
+  width: auto;
+}
+
 .carouselGaleryCursor :global(.swiper-caret-next) svg,
 .carouselGaleryCursor :global(.swiper-caret-prev) svg {
-  color: #000;
+  color: #364350;
 }
 
 .carouselGaleryCursor :global(.swiper-caret-next.c-disabled) svg,
@@ -332,11 +332,34 @@ div[class='vtex-carousel'] div[class*='slick-dots'] :global(.slick-active) butto
 }
 
 .carouselGaleryCursor :global(.swiper-pagination-bullet) {
-  color: #000;
+  color: #364350;
+}
+
+.productDescriptionContainer {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.productDescriptionContainer [class*='t-heading-5'] {
+  display: inline-block;
+  margin-bottom: 2.5rem;
+  padding-bottom: 0.2rem;
+  font-weight: 600;
+  font-size: 0.7rem;
+  color: #2294ed;
+  border-bottom: 1px solid #2294ed;
+}
+
+.productDescriptionContainer [class*='c-muted-1'] {
+  color: #183b56;
 }
 
 @media screen and (max-width: 640px) {
   .logoContainer {
     padding: 0.4rem 0 0;
+  }
+  .infoCardContainer--homeCard2,
+  .infoCardContainer--homeCard3 {
+    margin-top: 3rem;
   }
 }

@@ -1,5 +1,6 @@
 .container {
   padding-top: 2rem;
+  padding-bottom: 7rem;
 }
 
 .container > div > article > :global(.flex.flex-wrap) {
@@ -32,8 +33,8 @@
   line-height: 24px;
 }
 
-.priceContainer div[class*='sellingPrice '] {
-  font-size: 2.25rem;
+.priceContainer div[class*='sellingPrice'] {
+  font-size: 1.5rem;
   font-weight: 600;
   line-height: 2.25rem;
   margin-bottom: 5px;
@@ -48,6 +49,10 @@
   line-height: 19px;
 }
 
+.priceContainer + [class*='mv2 mt5 dn db-l'] {
+  display: none;
+}
+
 .detailsContainer button:global(.vtex-button.t-action) {
   width: auto;
   border-radius: 4px;
@@ -57,13 +62,16 @@
   margin-top: -20px;
 }
 
-.informationsContainer > :global(.flex.justify-between) {
-  display: block;
+.informationsContainer hr {
+  height: 1px;
+  color: #d0dded;
+  background-color: #d0dded;
+  border: none;
+  opacity: 1;
 }
 
-.informationsContainer :global(.t-heading-5) {
-  font-weight: 600;
-  margin-bottom: 20px;
+.informationsContainer > :global(.flex.justify-between) {
+  display: block;
 }
 
 .informationsContainer [class*='productDescriptionContainer'] p {

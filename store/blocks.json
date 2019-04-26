@@ -106,14 +106,6 @@
 
 
 
-
-
-
-
-
-
-
-
   "menu#menu": {
     "children": [
       "menu-item#menu-undersink",
@@ -125,31 +117,177 @@
   "menu-item#menu-undersink": {
     "props": {
       "id": "menu-item-undersink",
-      "type": "category",
+      "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "categoryId": 1
+        "type": "internal",
+        "href": "/under-sink-filtration",
+        "tagTitle": "Under Sink Filtration",
+        "text": "Under Sink Filtration"
+      }
+    },
+    "blocks": [
+      "submenu#menu-undersink"
+    ]
+  },
+  "submenu#menu-undersink": {
+    "children": [
+      "menu#menu-undersink"
+    ]
+  },
+  "menu#menu-undersink": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#menu-undersinkItem1",
+      "menu-item#menu-undersinkItem2"
+    ]
+  },
+  "menu-item#menu-undersinkItem1": {
+    "props": {
+      "id": "menu-item-undersinkItem1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/under-sink-filtration/under-sink-filtration-systems",
+        "tagTitle": "Under Sink Filtration Systems",
+        "text": "Under Sink Filtration Systems"
+      }
+    }
+  },
+  "menu-item#menu-undersinkItem2": {
+    "props": {
+      "id": "menu-item-undersinkItem2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/under-sink-filtration/under-sink-replacement-filters",
+        "tagTitle": "Under Sink Replacement Filters",
+        "text": "Under Sink Replacement Filters"
       }
     }
   },
   "menu-item#menu-wholehome": {
     "props": {
       "id": "menu-item-wholehome",
-      "type": "category",
+      "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "categoryId": 4
+        "type": "internal",
+        "href": "/whole-home-water-filtration",
+        "tagTitle": "Whole Home Water Filtration",
+        "text": "Whole Home Water Filtration"
+      }
+    },
+    "blocks": [
+      "submenu#menu-wholehome"
+    ]
+  },
+  "submenu#menu-wholehome": {
+    "children": [
+      "menu#menu-wholehome"
+    ]
+  },
+  "menu#menu-wholehome": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#menu-wholehomeItem1",
+      "menu-item#menu-wholehomeItem2"
+    ]
+  },
+  "menu-item#menu-wholehomeItem1": {
+    "props": {
+      "id": "menu-item-wholehomeItem1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/whole-home-water-filtration/whole-home-water-filtration-systems",
+        "tagTitle": "Whole Home Water Filtration Systems",
+        "text": "Whole Home Water Filtration Systems"
+      }
+    }
+  },
+  "menu-item#menu-wholehomeItem2": {
+    "props": {
+      "id": "menu-item-wholehomeItem2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/whole-home-water-filtration/whole-home-water-replacement-filters",
+        "tagTitle": "Whole Home Water Replacement Filters",
+        "text": "Whole Home Water Replacement Filters"
       }
     }
   },
   "menu-item#menu-watersoftner": {
     "props": {
       "id": "menu-item-watersoftner",
-      "type": "category",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
       "itemProps": {
-        "categoryId": 7
+        "type": "internal",
+        "href": "/water-softeners",
+        "tagTitle": "Water Softeners",
+        "text": "Water Softeners"
+      }
+    },
+    "blocks": [
+      "submenu#menu-watersoftner"
+    ]
+  },
+  "submenu#menu-watersoftner": {
+    "children": [
+      "menu#menu-watersoftner"
+    ]
+  },
+  "menu#menu-watersoftner": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#menu-watersoftnerItem1",
+      "menu-item#menu-watersoftnerItem2"
+    ]
+  },
+  "menu-item#menu-watersoftnerItem1": {
+    "props": {
+      "id": "menu-item-watersoftnerItem1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/water-softeners/water-softening-systems",
+        "tagTitle": "Water Softener Systems",
+        "text": "Water Softener Systems"
+      }
+    }
+  },
+  "menu-item#menu-watersoftnerItem2": {
+    "props": {
+      "id": "menu-item-watersoftnerItem2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/water-softeners/water-softener-cleaner",
+        "tagTitle": "Water Softener Cleaner",
+        "text": "Water Softener Cleaner"
       }
     }
   },
@@ -162,7 +300,6 @@
       "itemProps": {
         "type": "external",
         "href": "#",
-        "noFollow": true,
         "tagTitle": "Learning Center",
         "text": "Learning Center"
       }
@@ -198,7 +335,6 @@
       "itemProps": {
         "type": "internal",
         "href": "/why-my-water-smells",
-        "noFollow": true,
         "tagTitle": "Why Does My Water Smell?",
         "text": "Why Does My Water Smell?"
       }
@@ -211,9 +347,8 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "external",
+        "type": "internal",
         "href": "/hard-water-basics",
-        "noFollow": true,
         "tagTitle": "Hard Water Basics",
         "text": "Hard Water Basics"
       }
@@ -226,9 +361,8 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "external",
+        "type": "internal",
         "href": "/water-contaminants-guide",
-        "noFollow": true,
         "tagTitle": "Water Contaminants Guide",
         "text": "Water Contaminants Guide"
       }
@@ -241,9 +375,8 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "external",
+        "type": "internal",
         "href": "/faq",
-        "noFollow": true,
         "tagTitle": "FAQ",
         "text": "FAQ"
       }
@@ -256,9 +389,8 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "external",
+        "type": "internal",
         "href": "/owners-manual",
-        "noFollow": true,
         "tagTitle": "User Manuals",
         "text": "User Manuals"
       }
@@ -271,22 +403,13 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "external",
+        "type": "internal",
         "href": "/about-us",
-        "noFollow": true,
         "tagTitle": "About Us",
         "text": "About Us"
       }
     }
   },
-
-
-
-
-
-
-
-
 
 
 
@@ -912,7 +1035,7 @@
       "subhead": "Hard water could be costing you hundreds on cleaning products and harming your home’s infrastructure.",
       "callToActionText": "LEARN MORE",
       "callToActionUrl": "/hard-water-basics",
-      "imageUrl": "https://ecowaterqa.vteximg.com.br/arquivos/ids/155512",
+      "imageUrl": "https://ecowaterqa.vteximg.com.br/arquivos/Hard-Water-Does-What-Ecopurehome-1.jpg",
       "blockClass": "homeCard1"
     }
   },
@@ -922,7 +1045,7 @@
       "subhead": "Water that smells is undrinkable. We tell you which smells could mean trouble for your home’s water.",
       "callToActionText": "IDENTIFY YOUR WATER PROBLEM",
       "callToActionUrl": "/why-my-water-smells",
-      "imageUrl": "https://ecowaterqa.vteximg.com.br/arquivos/ids/155512",
+      "imageUrl": "https://ecowaterqa.vteximg.com.br/arquivos/Why-Does-My-Water-Smell_Ecopurehome.jpg",
       "callToActionMode": "link",
       "blockClass": "homeCard2"
     }
@@ -933,7 +1056,7 @@
       "subhead": "Unfortunately, the threat of water contamination doesn’t stop at your city’s municipal center or neighborhood well.",
       "callToActionText": "READ MORE",
       "callToActionUrl": "/water-contaminants-guide",
-      "imageUrl": "https://ecowaterqa.vteximg.com.br/arquivos/ids/155512",
+      "imageUrl": "https://ecowaterqa.vteximg.com.br/arquivos/Whats-In-Your-Water-Ecopurehome.jpg",
       "callToActionMode": "link",
       "blockClass": "homeCard3"
     }
@@ -967,24 +1090,22 @@
       "product-highlights",
       "buy-button",
       "sku-selector",
-      "availability-subscriber",
-      "shipping-simulator"
+      "availability-subscriber"
     ],
     "props": {
       "displayVertically": false,
       "showSpecificationsTab": true,
-      "highlightGroup": "",
       "price": {
         "labelSellingPrice": null,
         "showListPrice": true,
         "showLabels": true,
-        "showInstallments": true,
-        "showSavings": true
+        "showInstallments": false,
+        "showSavings": false
       },
       "name": {
         "showBrandName": false,
         "showSku": false,
-        "showProductReference": false
+        "showProductReference": true
       }
     }
   },
@@ -1027,9 +1148,9 @@
   "info-card#department": {
     "props": {
       "isFullModeStyle": false,
-      "headline": "Water Softeners",
-      "subhead": "We offer several under sink filtration systems that you can conveniently fit beneath your kitchen or bathroom counter. Replacement filters for these systems are also available. All of our systems and filters are NSF Certified to remove chlorine and sediment. Most of our systems don’t stop there. Our dual-stage system will reduce microbial cysts, lead and chemicals. Along with those contaminants, our reverse osmosis system filters pesky dissolved solids from your water. Our purifier system is the most thorough, filtering out pharmaceuticals, bacteria and viruses. Choose the right system by browsing our selection below.",
-      "imageUrl": "https://ecowaterqa.vteximg.com.br/arquivos/ids/155512",
+      "headline": "",
+      "subhead": "",
+      "imageUrl": "",
       "callToActionMode": "link",
       "blockClass": "departmentBanner"
     }
