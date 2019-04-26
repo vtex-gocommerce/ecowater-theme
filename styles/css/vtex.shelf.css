@@ -4,6 +4,12 @@
   padding-bottom: 1rem;
 }
 
+@media screen and (min-width: 800px) {
+  .container [class*='mw9 relative'] {
+    min-width: 95%;
+  }
+}
+
 .container [class*='flex justify-center'] + [class*='flex justify-center'] {
   margin: 0 2rem;
 }
@@ -11,7 +17,7 @@
 .title {
   font-weight: 400;
   color: #183b56;
-  padding: 2rem 0 1rem 1rem;
+  padding: 2rem 0 1rem 3rem;
   justify-content: left;
   font-size: 1.3rem;
 }

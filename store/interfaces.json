@@ -1,4 +1,7 @@
 {
+  "theme.custom": {
+    "component": "Theme"
+  },
   "store.content" : {
     "allowed": [
       "content-blocks",

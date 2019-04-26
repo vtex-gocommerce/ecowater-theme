@@ -44,6 +44,7 @@
   },
   "header-row#desktop-1": {
     "children": [
+      "theme.custom",
       "menu-link#header"
     ],
     "props": {
@@ -80,6 +81,7 @@
   },
   "header-row#mobile-1": {
     "children": [
+      "theme.custom",
       "telemarketing"
     ],
     "props": {
@@ -505,8 +507,7 @@
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-1",
-      "flex-layout.row#footer-2",
-      "flex-layout.row#footer-3"
+      "flex-layout.row#footer-2"
     ]
   },
   "footer-layout.mobile": {
@@ -520,7 +521,9 @@
     "children": [
       "flex-layout.col#footer-1-col-1",
       "flex-layout.col#footer-1-col-2",
-      "flex-layout.col#footer-1-col-4"
+      "flex-layout.col#footer-1-col-3",
+      "flex-layout.col#footer-1-col-4",
+      "flex-layout.col#footer-1-col-5"
     ],
     "props": {
       "blockClass": "footerGrid-1"
@@ -528,9 +531,7 @@
   },
   "flex-layout.col#footer-1-col-1": {
     "children": [
-      "menu#footer-categories-1",
-      "menu#footer-categories-4",
-      "menu#footer-categories-7"
+      "menu#footer-categories-1"
     ],
     "props": {
       "blockClass": "footer-categories"
@@ -538,21 +539,29 @@
   },
   "flex-layout.col#footer-1-col-2": {
     "children": [
+      "menu#footer-categories-4"
+    ],
+    "props": {
+      "blockClass": "footer-categories"
+    }
+  },
+  "flex-layout.col#footer-1-col-3": {
+    "children": [
+      "menu#footer-categories-7"
+    ],
+    "props": {
+      "blockClass": "footer-categories"
+    }
+  },
+  "flex-layout.col#footer-1-col-4": {
+    "children": [
       "menu#footer-resources"
     ],
     "props": {
       "blockClass": "footer-institucional"
     }
   },
-  "flex-layout.col#footer-1-col-3": {
-    "children": [
-      "menu#footer-promotions"
-    ],
-    "props": {
-      "blockClass": "footer-promotions"
-    }
-  },
-  "flex-layout.col#footer-1-col-4": {
+  "flex-layout.col#footer-1-col-5": {
     "children": [
       "menu#footer-contact",
       "menu#footer-account",
@@ -563,6 +572,14 @@
     ],
     "props": {
       "blockClass": "footer-links-column"
+    }
+  },
+  "flex-layout.col#footer-1-col-6": {
+    "children": [
+      "menu#footer-promotions"
+    ],
+    "props": {
+      "blockClass": "footer-promotions"
     }
   },
   "flex-layout.row#footer-2": {
@@ -881,7 +898,7 @@
   },
   "rich-text#footer-copyright": {
     "props": {
-      "text": "Manufactured under license by Ecodyne, PO Box 64420, St Paul, MN, 55164\n(R) 2016 Whirlpool Corporation. All rights Reserved.",
+      "text": "® 2019 EcoWater Systems, LLC. All Rights Reserved",
       "blockClass": "copyright"
     }
   },
@@ -956,13 +973,13 @@
     }
   },
   "shelf#home1": {
-    "blocks": ["product-summary.unstable--flex"],
+    "blocks": ["product-summary.shelf"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
       "category": 4,
       "productList": {
-        "maxItems": 10,
-        "itemsPerPage": 3,
+        "maxItems": 8,
+        "itemsPerPage": 4,
         "scroll": "BY_PAGE",
         "arrows": true,
         "titleText": "Whole Home Filtration"
@@ -970,13 +987,13 @@
     }
   },
   "shelf#home2": {
-    "blocks": ["product-summary.unstable--flex"],
+    "blocks": ["product-summary.shelf"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
       "category": 1,
       "productList": {
-        "maxItems": 10,
-        "itemsPerPage": 5,
+        "maxItems": 8,
+        "itemsPerPage": 4,
         "scroll": "BY_PAGE",
         "arrows": true,
         "titleText": "Undersink Filtration"
@@ -984,12 +1001,12 @@
     }
   },
   "shelf#home3": {
-    "blocks": ["product-summary.unstable--flex"],
+    "blocks": ["product-summary.shelf"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
       "category": 7,
       "productList": {
-        "maxItems": 10,
+        "maxItems": 8,
         "itemsPerPage": 4,
         "scroll": "BY_PAGE",
         "arrows": true,
@@ -997,7 +1014,7 @@
       }
     }
   },
-  "product-summary.unstable--flex": {
+  "product-summary.shelf": {
     "children": [
       "product-summary-name",
       "product-summary-space",
@@ -1138,7 +1155,7 @@
   },
   "gallery": {
     "blocks": [
-      "product-summary.unstable--flex"
+      "product-summary.shelf"
     ],
     "props": {
       "maxItemsPerRow": 4,

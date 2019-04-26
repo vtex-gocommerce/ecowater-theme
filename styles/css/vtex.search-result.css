@@ -19,10 +19,6 @@
   height: auto !important;
 }
 
-.filterIcon {
-  display: none;
-}
-
 .filterTitle {
   color: #2f4e66;
 }
@@ -53,5 +49,19 @@
 }
 
 .orderBy {
-  margin-right: 1rem;
+  margin: 0 0 2rem;
+}
+
+.orderBy [class*='center'] {
+  margin-right: 0.5rem;
+}
+
+.orderBy button {
+  border: 2px solid #e4e4e4;
+  border-radius: 2px;
+  padding: 0.5rem;
+}
+
+.buttonShowMore {
+  margin-top: 5rem;
 }
