@@ -1097,6 +1097,14 @@
       "blockClass": "homeBannerGrid2"
     }
   },
+  "product-specifications": {
+    "props": {
+      "hiddenSpecifications": [
+        "Warranty",
+        "Free Shipping"
+      ]
+    }
+  },
   "product-details#default": {
     "blocks": [
       "breadcrumb",
