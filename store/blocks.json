@@ -15,7 +15,7 @@
     "blocks": ["notification.bar", "info-card#department", "search-result"]
   },
   "store.search#category": {
-    "blocks": ["notification.bar", "search-result"]
+    "blocks": ["notification.bar", "info-card#department", "search-result"]
   },
   "store.search#subcategory": {
     "blocks": ["notification.bar", "search-result"]
@@ -124,7 +124,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/under-sink-filtration",
+        "href": "/under-sink-filtration/d",
         "tagTitle": "Under Sink Filtration",
         "text": "Under Sink Filtration"
       }
@@ -183,7 +183,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/whole-home-water-filtration",
+        "href": "/whole-home-water-filtration/d",
         "tagTitle": "Whole Home Water Filtration",
         "text": "Whole Home Water Filtration"
       }
@@ -242,7 +242,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/water-softeners",
+        "href": "/water-softeners/d",
         "tagTitle": "Water Softeners",
         "text": "Water Softeners"
       }
@@ -507,7 +507,8 @@
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-1",
-      "flex-layout.row#footer-2"
+      "flex-layout.row#footer-2",
+      "flex-layout.row#footer-3"
     ]
   },
   "footer-layout.mobile": {
