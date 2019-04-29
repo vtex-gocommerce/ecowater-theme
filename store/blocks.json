@@ -507,15 +507,13 @@
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-1",
-      "flex-layout.row#footer-2",
-      "flex-layout.row#footer-3"
+      "flex-layout.row#footer-2"
     ]
   },
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#footer-1",
-      "flex-layout.row#footer-2",
-      "flex-layout.row#footer-3"
+      "flex-layout.row#footer-2"
     ]
   },
   "flex-layout.row#footer-1": {
@@ -587,7 +585,8 @@
     "children": [
       "rich-text#footer-copyright",
       "menu#footer-2",
-      "social-networks#footer"
+      "social-networks#footer",
+      "powered-by"
     ],
     "props": {
       "blockClass": "footerGrid-2"

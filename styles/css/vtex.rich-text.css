@@ -6,3 +6,12 @@
   font-size: 0.7rem;
   color: #4f5154;
 }
+
+@media screen and (max-width: 640px) {
+  .container--copyright {
+    text-align: center;
+  }
+  .container--copyright > div {
+    width: 100%;
+  }
+}

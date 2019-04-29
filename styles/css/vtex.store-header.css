@@ -48,15 +48,20 @@
   .headerRow--mobile-main section {
     padding: 0.5rem 0;
     border-top: 2px solid #dce6f1;
+    border-bottom: 2px solid #dce6f1;
   }
   .headerRow--mobile-main nav [class*='flex-row'] li {
-    width: 50%;
+    width: 57%;
+  }
+  .headerRow--mobile-main nav [class*='flex-row'] li:nth-child(odd) {
+    width: 43%;
   }
   .headerRow--mobile-main nav [class*='flex-row'] li [class*='mh6 pv5'] {
-    padding: 0.5rem 0;
-    margin: 0 1rem;
+    padding: 0.3rem 0;
+    margin: 0 0.5rem;
   }
   .headerRow--mobile-main nav [class*='flex-row'] li [class*='nowrap'] {
     white-space: normal;
+    font-size: 0.9rem;
   }
 }

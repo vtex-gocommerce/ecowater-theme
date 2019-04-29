@@ -335,12 +335,12 @@ div[class='vtex-carousel'] div[class*='slick-dots'] :global(.slick-active) butto
   color: #364350;
 }
 
-.productDescriptionContainer {
+.productDescriptionContainer, .specificationsTabsContainer {
   max-width: 65rem;
   margin: 0 auto;
 }
 
-.productDescriptionContainer [class*='t-heading-5'] {
+.productDescriptionContainer [class*='t-heading-5'], .specificationsTitle {
   display: inline-block;
   margin-bottom: 2.5rem;
   padding-bottom: 0.2rem;
@@ -354,6 +354,13 @@ div[class='vtex-carousel'] div[class*='slick-dots'] :global(.slick-active) butto
   color: #183b56;
 }
 
+.specificationsTabsContainer [class*='vtex-tabs__nav'] button {
+  font-size: 0.8rem;
+  /* color: #2294ed;
+  border-bottom: 1px solid #2294ed; */
+}
+
+
 @media screen and (max-width: 640px) {
   .logoContainer {
     padding: 0.4rem 0 0;
@@ -361,5 +368,11 @@ div[class='vtex-carousel'] div[class*='slick-dots'] :global(.slick-active) butto
   .infoCardContainer--homeCard2,
   .infoCardContainer--homeCard3 {
     margin-top: 3rem;
+  }
+  .specificationsTabsContainer [class*='vtex-tabs__nav'] {
+    flex-wrap: wrap;
+  }
+  .specificationsTabsContainer [class*='vtex-tabs__nav'] button {
+    height: 2rem;
   }
 }
