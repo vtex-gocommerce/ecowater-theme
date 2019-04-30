@@ -1,5 +1,6 @@
 import React from 'react'
 import { Helmet } from 'vtex.render-runtime'
+import './order-placed.global.css'
 
 const Theme = () => (
   <Helmet>

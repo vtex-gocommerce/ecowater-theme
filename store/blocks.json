@@ -29,6 +29,17 @@
   "store.login": {
     "blocks": ["login-content#default"]
   },
+  "store.orderplaced": {
+    "blocks": [
+      "order-placed"
+    ]
+  },
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
   "header.full": {
     "blocks": [
       "header-layout.desktop",
