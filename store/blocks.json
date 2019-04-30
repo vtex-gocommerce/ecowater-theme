@@ -585,8 +585,7 @@
     "children": [
       "rich-text#footer-copyright",
       "menu#footer-2",
-      "social-networks#footer",
-      "powered-by"
+      "social-networks#footer"
     ],
     "props": {
       "blockClass": "footerGrid-2"
@@ -602,22 +601,54 @@
   },
   "menu#footer-categories-1": {
     "props": {
-      "categoryId": 1,
-      "orientation": "vertical"
-    }
+      "orientation": "vertical",
+      "title": {
+        "type": "custom",
+        "itemProps": {
+          "type": "internal",
+          "href": "/under-sink-filtration/d",
+          "text": "Under Sink Filtration"
+        }
+      }
+    },
+    "children": [
+      "menu-item#menu-undersinkItem1",
+      "menu-item#menu-undersinkItem2"
+    ]
   },
   "menu#footer-categories-4": {
     "props": {
-      "categoryId": 4,
-      "orientation": "vertical"
-    }
+      "orientation": "vertical",
+      "title": {
+        "type": "custom",
+        "itemProps": {
+          "type": "internal",
+          "href": "/whole-home-water-filtration/d",
+          "text": "Whole Home Water Filtration"
+        }
+      }
+    },
+    "children": [
+      "menu-item#menu-wholehomeItem1",
+      "menu-item#menu-wholehomeItem2"
+    ]
   },
   "menu#footer-categories-7": {
     "props": {
-      "categoryId": 7,
       "orientation": "vertical",
-      "textType": "heading3"
-    }
+      "title": {
+        "type": "custom",
+        "itemProps": {
+          "type": "internal",
+          "href": "/water-softeners/d",
+          "text": "Water Softeners"
+        }
+      }
+    },
+    "children": [
+      "menu-item#menu-watersoftnerItem1",
+      "menu-item#menu-watersoftnerItem2"
+    ]
   },
   "menu#footer-owner-center": {
     "props": {
