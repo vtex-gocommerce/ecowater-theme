@@ -1131,7 +1131,9 @@
       "flex-layout.col#home"
     ],
     "props": {
-      "blockClass": "homeBannerGrid"
+      "blockClass": "homeBannerGrid",
+      "colGap": "7",
+      "rowGap": "7"
     }
   },
   "flex-layout.col#home": {

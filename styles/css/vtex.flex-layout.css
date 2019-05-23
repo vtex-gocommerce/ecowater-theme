@@ -15,10 +15,6 @@
   margin: 2rem 0;
 }
 
-.flexRow--footerGrid-1 .flexCol {
-  padding: 0 1rem;
-}
-
 .flexRow--footerGrid-1 .flexCol nav [class*='t-body c-muted-1'] {
   font-size: 0.9rem;
 }

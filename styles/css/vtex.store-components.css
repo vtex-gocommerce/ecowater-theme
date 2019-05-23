@@ -102,9 +102,7 @@
 .infoCardContainer--homeCard1,
 .infoCardContainer--homeCard2,
 .infoCardContainer--homeCard3 {
-  height: 97.5%;
   padding: 0;
-  margin: 0.5rem;
   border-radius: 2px;
   box-shadow: 0px 2px 7px #d2d2d2;
 }
@@ -367,10 +365,6 @@ div[class='vtex-carousel'] div[class*='slick-dots'] :global(.slick-active) butto
 @media screen and (max-width: 640px) {
   .logoContainer {
     padding: 0.4rem 0 0;
-  }
-  .infoCardContainer--homeCard2,
-  .infoCardContainer--homeCard3 {
-    margin-top: 3rem;
   }
   .specificationsTabsContainer [class*='vtex-tabs__nav'] {
     flex-wrap: wrap;
