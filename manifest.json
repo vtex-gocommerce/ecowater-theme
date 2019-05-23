@@ -32,5 +32,6 @@
     "vtex.rich-text": "0.x",
     "ecowaterqa.content-blocks": "1.x",
     "ecowaterqa.contact-us": "1.x"
-  }
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
