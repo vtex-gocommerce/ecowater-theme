@@ -1445,8 +1445,10 @@
 
   "store.content#why-my-water-smells": {
     "blocks": [
-      "content-blocks"
-    ],
+      "content-blocks#why-my-water-smells"
+    ]
+  },
+  "content-blocks#why-my-water-smells": {
     "props": {
       "headline": "Why Does My Water Smell? 5 Common Smells & Their Causes",
       "subline": "",
@@ -1458,8 +1460,10 @@
   },
   "store.content#hard-water-basics": {
     "blocks": [
-      "content-blocks"
-    ],
+      "content-blocks#hard-water-basics"
+    ]
+  },
+  "content-blocks#hard-water-basics": {
     "props": {
       "headline": "Hard Water Basics: What Is Hard Water & What You Can Do About It",
       "subline": "",
@@ -1471,8 +1475,10 @@
   },
   "store.content#water-contaminants-guide": {
     "blocks": [
-      "content-blocks"
-    ],
+      "content-blocks#water-contaminants-guide"
+    ]
+  },
+  "content-blocks#water-contaminants-guide": {
     "props": {
       "headline": "A Comprehensive Guide to Common Water Contaminants",
       "subline": "",
@@ -1484,8 +1490,10 @@
   },
   "store.content#faq": {
     "blocks": [
-      "content-blocks"
-    ],
+      "content-blocks#faq"
+    ]
+  },
+  "content-blocks#faq": {
     "props": {
       "headline": "Frequently Asked Questions",
       "subline": "",
@@ -1497,8 +1505,10 @@
   },
   "store.content#owners-manual": {
     "blocks": [
-      "content-blocks"
-    ],
+      "content-blocks#owners-manual"
+    ]
+  },
+  "content-blocks#owners-manual": {
     "props": {
       "headline": "Owner's Manuals",
       "subline": "",
@@ -1510,8 +1520,10 @@
   },
   "store.content#about-us": {
     "blocks": [
-      "content-blocks"
-    ],
+      "content-blocks#about-us"
+    ]
+  },
+  "content-blocks#about-us": {
     "props": {
       "headline": "EcoPureHome",
       "subline": "Your Water. Our Solutions.",
@@ -1523,8 +1535,10 @@
   },
   "store.content#delivery": {
     "blocks": [
-      "content-blocks"
-    ],
+      "content-blocks#delivery"
+    ]
+  },
+  "content-blocks#delivery": {
     "props": {
       "headline": "Delivery and Shipping",
       "subline": "",
@@ -1536,8 +1550,10 @@
   },
   "store.content#installation": {
     "blocks": [
-      "content-blocks"
-    ],
+      "content-blocks#installation"
+    ]
+  },
+  "content-blocks#installation": {
     "props": {
       "headline": "Water Softener Installation",
       "subline": "Make a great day even better by installing quickly!",
@@ -1549,8 +1565,10 @@
   },
   "store.content#filter-subscription": {
     "blocks": [
-      "content-blocks"
-    ],
+      "content-blocks#filter-subscription"
+    ]
+  },
+  "content-blocks#filter-subscription": {
     "props": {
       "headline": "Water Filter Replacement Subscriptions",
       "subline": "",
@@ -1562,8 +1580,10 @@
   },
   "store.content#return-policy": {
     "blocks": [
-      "content-blocks"
-    ],
+      "content-blocks#return-policy"
+    ]
+  },
+  "content-blocks#return-policy": {
     "props": {
       "headline": "EcoPureHome Customer Return Policy and Information",
       "subline": "",
@@ -1575,8 +1595,10 @@
   },
   "store.content#contact-us": {
     "blocks": [
-      "contact-us"
-    ],
+      "contact-us#contact-us"
+    ]
+  },
+  "contact-us#contact-us": {
     "props": {
       "isEnabled": true,
       "headline": "Contact Us",
@@ -1587,8 +1609,10 @@
   },
   "store.content#privacy-policy": {
     "blocks": [
-      "content-blocks"
-    ],
+      "content-blocks#privacy-policy"
+    ]
+  },
+  "content-blocks#privacy-policy": {
     "props": {
       "headline": "EcoPureHome Privacy Policy",
       "subline": "",
@@ -1600,8 +1624,10 @@
   },
   "store.content#terms-and-conditions": {
     "blocks": [
-      "content-blocks"
-    ],
+      "content-blocks#terms-and-conditions"
+    ]
+  },
+  "content-blocks#terms-and-conditions": {
     "props": {
       "headline": "EcoPureHome Terms and Conditions",
       "subline": "",
