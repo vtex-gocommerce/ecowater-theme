@@ -1,7 +1,7 @@
 {
   "vendor": "ecowaterqa",
   "name": "ecowater-theme",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "title": "Ecowater Theme",
   "description": "",
   "mustUpdateAt": "2019-10-24",
@@ -27,6 +27,7 @@
     "vtex.category-menu": "2.x",
     "vtex.shelf": "1.x",
     "vtex.store-footer": "2.x",
+    "vtex.store-drawer": "0.x",
     "vtex.minicart": "2.x",
     "vtex.flex-layout": "0.x",
     "vtex.rich-text": "0.x",
