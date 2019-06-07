@@ -15,3 +15,434 @@
     width: 100%;
   }
 }
+
+.container--water-smells {
+  padding: 2rem 2rem 5rem;
+  margin: 0 auto;
+  max-width: 96rem;
+  background: transparent;
+  font-family: source-sans-pro, sans-serif;
+}
+
+.container--water-smells .heading-level-1 {
+  margin-top: 1rem;
+  margin: .67em 0;
+  font-size: 2rem;
+  color: #183b56;
+  font-weight: 500;
+}
+
+.container--water-smells .heading {
+  font-family: halyard-display, sans-serif;
+}
+
+.container--water-smells .link {
+  font-family: halyard-display, sans-serif;
+  color: #1478bf;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.container--water-smells .heading-level-2 {
+  font-size: 1.5rem;
+  color: #183b56;
+  font-weight: 400;
+}
+
+.container--water-smells .heading-level-3 {
+  font-size: 30px;
+  color: #183b56;
+  font-weight: 400;
+}
+
+.container--water-smells .paragraph {
+  font-size: 1rem;
+}
+
+.container--water-smells .image {
+  margin: 1em 40px;
+}
+
+.container--water-smells .listItem {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.container--water-basics {
+  padding: 2rem 2rem 5rem;
+  margin: 0 auto;
+  max-width: 96rem;
+  background: transparent;
+  font-family: source-sans-pro, sans-serif;
+}
+
+.container--water-basics .heading-level-1 {
+  margin-top: 1rem;
+  margin: .67em 0;
+  font-size: 2rem;
+  color: #183b56;
+  font-weight: 500;
+}
+
+.container--water-basics .heading {
+  font-family: halyard-display, sans-serif;
+}
+
+.container--water-basics .link {
+  font-family: halyard-display, sans-serif;
+  color: #1478bf;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.container--water-basics .heading-level-2 {
+  font-size: 1.5rem;
+  color: #183b56;
+  font-weight: 400;
+}
+
+.container--water-basics .heading-level-3 {
+  font-size: 30px;
+  color: #183b56;
+  font-weight: 400;
+}
+
+.container--water-basics .paragraph {
+  font-size: 1rem;
+}
+
+.container--water-basics .image {
+  margin: 1em 40px;
+}
+
+.container--water-basics .listItem {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.container--water-contaminants {
+  padding: 2rem 2rem 5rem;
+  margin: 0 auto;
+  max-width: 96rem;
+  background: transparent;
+  font-family: source-sans-pro, sans-serif;
+}
+
+.container--water-contaminants .heading-level-1 {
+  margin-top: 1rem;
+  margin: .67em 0;
+  font-size: 2rem;
+  color: #183b56;
+  font-weight: 500;
+}
+
+.container--water-contaminants .heading {
+  font-family: halyard-display, sans-serif;
+}
+
+.container--water-contaminants .link {
+  font-family: halyard-display, sans-serif;
+  color: #1478bf;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.container--water-contaminants .heading-level-2 {
+  font-size: 1.5rem;
+  color: #183b56;
+  font-weight: 400;
+}
+
+.container--water-contaminants .heading-level-3 {
+  font-size: 30px;
+  color: #183b56;
+  font-weight: 400;
+}
+
+.container--water-contaminants .paragraph {
+  font-size: 1rem;
+}
+
+.container--water-contaminants .image {
+  margin: 1em 40px;
+}
+
+.container--water-contaminants .listItem {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.container--faq {
+  padding: 2rem 2rem 5rem;
+  margin: 0 auto;
+  max-width: 96rem;
+  background: transparent;
+  font-family: source-sans-pro, sans-serif;
+}
+
+.container--faq .heading-level-1 {
+  margin-top: 1rem;
+  margin: .67em 0;
+  font-size: 2rem;
+  color: #183b56;
+  font-weight: 500;
+}
+
+.container--faq .heading {
+  font-family: halyard-display, sans-serif;
+}
+
+.container--faq .paragraph {
+  font-size: 1rem;
+}
+
+.container--faq .strong {
+  font-size: 22px;
+  font-weight: bolder;
+  margin: 1rem 0;
+}
+
+.container--manual {
+  padding: 2rem 2rem 5rem;
+  margin: 0 auto;
+  max-width: 96rem;
+  background: transparent;
+  font-family: source-sans-pro, sans-serif;
+}
+
+.container--manual .heading-level-1 {
+  margin-top: 1rem;
+  margin: .67em 0;
+  font-size: 2rem;
+  color: #183b56;
+  font-weight: 500;
+}
+
+.container--manual .heading {
+  font-family: halyard-display, sans-serif;
+}
+
+.container--manual .link {
+  font-family: halyard-display, sans-serif;
+  color: #1478bf;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.container--manual .paragraph {
+  font-size: 1rem;
+}
+
+.container--manual .strong {
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+.container--about-us {
+  padding: 2rem 2rem 5rem;
+  margin: 0 auto;
+  max-width: 96rem;
+  background: transparent;
+  font-family: source-sans-pro, sans-serif;
+}
+
+.container--about-us .heading-level-1 {
+  margin-top: 1rem;
+  margin: .67em 0;
+  font-size: 2rem;
+  color: #183b56;
+  font-weight: 500;
+}
+
+.container--about-us .heading {
+  font-family: halyard-display, sans-serif;
+}
+
+.container--about-us .link {
+  font-family: halyard-display, sans-serif;
+  color: #1478bf;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.container--about-us .heading-level-2 {
+  font-size: 1.5rem;
+  color: #183b56;
+  font-weight: 400;
+  margin: 0.83em 0;
+}
+
+.container--about-us .heading-level-3 {
+  font-size: 30px;
+  color: #183b56;
+  font-weight: 400;
+  margin: 1em 0;
+}
+
+.container--about-us .paragraph {
+  font-size: 1rem;
+}
+
+.container--delivery {
+  padding: 2rem 2rem 5rem;
+  margin: 0 auto;
+  max-width: 96rem;
+  background: transparent;
+}
+
+.container--delivery .heading-level-1 {
+  margin-top: 1rem;
+  margin: .67em 0;
+  font-size: 2rem;
+  color: #183b56;
+  font-weight: 500;
+}
+
+.container--delivery .link {
+  font-family: halyard-display, sans-serif;
+  color: #1478bf;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.container--delivery .paragraph {
+  font-size: 1rem;
+}
+
+.container--installation {
+  padding: 2rem 2rem 5rem;
+  margin: 0 auto;
+  max-width: 96rem;
+  background: transparent;
+  font-family: source-sans-pro, sans-serif;
+}
+
+.container--installation .heading-level-1 {
+  margin-top: 1rem;
+  margin: .67em 0;
+  font-size: 2rem;
+  color: #183b56;
+  font-weight: 500;
+}
+
+.container--installation .heading {
+  font-family: halyard-display, sans-serif;
+}
+
+.container--installation .link {
+  font-family: halyard-display, sans-serif;
+  color: #1478bf;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.container--installation .heading-level-2 {
+  font-size: 1.5rem;
+  color: #183b56;
+  font-weight: 400;
+}
+
+.container--installation .heading-level-3 {
+  font-size: 30px;
+  color: #183b56;
+  font-weight: 400;
+}
+
+.container--installation .paragraph {
+  font-size: 1rem;
+}
+
+.container--installation .image {
+  margin: 1em 40px;
+}
+
+.container--installation .listItem {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.container--filter-subs {
+  padding: 2rem 2rem 5rem;
+  margin: 0 auto;
+  max-width: 96rem;
+  background: transparent;
+}
+
+.container--filter-subs .heading-level-1 {
+  margin-top: 1rem;
+  margin: .67em 0;
+  font-size: 2rem;
+  color: #183b56;
+  font-weight: 500;
+}
+
+.container--filter-subs .link {
+  font-family: halyard-display, sans-serif;
+  color: #1478bf;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.container--filter-subs .paragraph {
+  font-size: 1rem;
+}
+
+.container--return-policy {
+  padding: 2rem 2rem 5rem;
+  margin: 0 auto;
+  max-width: 96rem;
+  background: transparent;
+}
+
+.container--return-policy .heading-level-1 {
+  margin: .67em 0;
+  font-size: 2rem;
+  color: #183b56;
+  font-weight: 500;
+}
+
+.container--return-policy .strong {
+  font-size: 22px;
+  font-weight: bolder;
+  margin: 1rem 0;
+}
+
+.container--return-policy .link {
+  font-family: halyard-display, sans-serif;
+  color: #1478bf;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.container--privacy-policy {
+  padding: 2rem 2rem 5rem;
+  margin: 0 auto;
+  max-width: 96rem;
+  background: transparent;
+}
+
+.container--privacy-policy .heading-level-1 {
+  margin: .67em 0;
+  font-size: 2rem;
+  color: #183b56;
+  font-weight: 500;
+}
+
+.container--privacy-policy .listItem {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.container--terms {
+  padding: 2rem 2rem 5rem;
+  margin: 0 auto;
+  max-width: 96rem;
+  background: transparent;
+}
+
+.container--terms .heading-level-1 {
+  margin: .67em 0;
+  font-size: 2rem;
+  color: #183b56;
+  font-weight: 500;
+}
