@@ -364,12 +364,20 @@ div[class='vtex-carousel'] div[class*='slick-dots'] :global(.slick-active) butto
 
 @media screen and (max-width: 640px) {
   .logoContainer {
-    padding: 0.4rem 0 0;
+    padding: 0 0 4px;
   }
   .specificationsTabsContainer [class*='vtex-tabs__nav'] {
     flex-wrap: wrap;
   }
   .specificationsTabsContainer [class*='vtex-tabs__nav'] button {
     height: 2rem;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .logoContainer {
+    max-width: 80px;
+    min-width: 80px;
+    padding: 6px 0px 0px;
   }
 }
