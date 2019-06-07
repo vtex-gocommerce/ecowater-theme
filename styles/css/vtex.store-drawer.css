@@ -1,0 +1,32 @@
+.drawer {
+  width: 85% !important;
+  min-width: 300px;
+}
+
+.drawer > :global(.flex) > nav {
+  width: 100%;
+}
+
+.drawer > :global(.flex) > nav > ul > li > div > div > span {
+  font-size: 18px;
+}
+
+.drawer > :global(.flex) > nav > ul > li > div > div > span > div {
+  align-items: center;
+}
+
+.drawer > :global(.flex) > nav > ul > li > div > div > span > div > div {
+  font-size: 24px;
+}
+
+.drawer > :global(.flex) > nav > ul > li > div > div {
+  padding: 24px 0px 0px;
+}
+
+.drawer > :global(.flex) > nav > ul > li > :global(.overflow-hidden) > section > nav > ul > li > :global(.vtex-menu-2-x-styledLinkContainer) {
+  padding-top: 10px;
+}
+
+.drawer > :global(.flex) > nav > ul > li > :global(.overflow-hidden) > section > nav > ul > li > :global(.vtex-menu-2-x-styledLinkContainer) > a {
+  font-size: 16px;
+}
