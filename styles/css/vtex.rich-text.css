@@ -59,8 +59,11 @@
   font-size: 1rem;
 }
 
-.container--water-smells .image {
-  margin: 1em 40px;
+
+@media screen and (min-width: 80em) {
+  .container--water-smells .image {
+    margin: 1em 40px;
+  }
 }
 
 .container--water-smells .listItem {
@@ -111,8 +114,10 @@
   font-size: 1rem;
 }
 
-.container--water-basics .image {
-  margin: 1em 40px;
+@media screen and (min-width: 80em) {
+  .container--water-basics .image {
+    margin: 1em 40px;
+  }
 }
 
 .container--water-basics .listItem {
@@ -163,8 +168,10 @@
   font-size: 1rem;
 }
 
-.container--water-contaminants .image {
-  margin: 1em 40px;
+@media screen and (min-width: 80em) {
+  .container--water-contaminants .image {
+    margin: 1em 40px;
+  }
 }
 
 .container--water-contaminants .listItem {
@@ -352,8 +359,10 @@
   font-size: 1rem;
 }
 
-.container--installation .image {
-  margin: 1em 40px;
+@media screen and (min-width: 80em) {
+  .container--installation .image {
+    margin: 1em 40px;
+  }
 }
 
 .container--installation .listItem {
