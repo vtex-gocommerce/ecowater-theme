@@ -1443,7 +1443,7 @@
 
 
 
-  "store.content#why-my-water-smells": {
+  "store.custom#why-my-water-smells": {
     "blocks": [
       "rich-text#why-my-water-smells"
     ]
@@ -1453,7 +1453,7 @@
       "blockClass": "water-smells"
     }
   },
-  "store.content#hard-water-basics": {
+  "store.custom#hard-water-basics": {
     "blocks": [
       "rich-text#hard-water-basics"
     ]
@@ -1462,8 +1462,8 @@
     "props": {
       "blockClass": "water-basics"
     }
-  },  
-  "store.content#water-contaminants-guide": {
+  },
+  "store.custom#water-contaminants-guide": {
     "blocks": [
       "rich-text#water-contaminants-guide"
     ]
@@ -1473,7 +1473,7 @@
       "blockClass": "water-contaminants"
     }
   },
-  "store.content#faq": {
+  "store.custom#faq": {
     "blocks": [
       "rich-text#faq"
     ]
@@ -1483,7 +1483,7 @@
       "blockClass": "faq"
     }
   },
-  "store.content#owners-manual": {
+  "store.custom#owners-manual": {
     "blocks": [
       "rich-text#owners-manual"
     ]
@@ -1493,7 +1493,7 @@
       "blockClass": "manual"
     }
   },
-  "store.content#about-us": {
+  "store.custom#about-us": {
     "blocks": [
       "rich-text#about-us"
     ]
@@ -1503,7 +1503,7 @@
       "blockClass": "about-us"
     }
   },
-  "store.content#delivery": {
+  "store.custom#delivery": {
     "blocks": [
       "rich-text#delivery"
     ]
@@ -1513,7 +1513,7 @@
       "blockClass": "delivery"
     }
   },
-  "store.content#installation": {
+  "store.custom#installation": {
     "blocks": [
       "rich-text#installation"
     ]
@@ -1523,7 +1523,7 @@
       "blockClass": "installation"
     }
   },
-  "store.content#filter-subscription": {
+  "store.custom#filter-subscription": {
     "blocks": [
       "rich-text#filter-subscription"
     ]
@@ -1533,7 +1533,7 @@
       "blockClass": "filter-subs"
     }
   },
-  "store.content#return-policy": {
+  "store.custom#return-policy": {
     "blocks": [
       "rich-text#return-policy"
     ]
@@ -1557,7 +1557,7 @@
       "addressCopy": "<strong>By Mail:</strong><br />1890 Woodlane Drive <br /> Woodbury, MN 55125 <br /><br /> <strong>By Email: </strong><a href=\"mailto:customerservice@ecopurehome.com\">customerservice@ecopurehome.com</a> <br /><br /><strong>By Phone: </strong>1-800-808-9899 <br /><br />"
     }
   },
-  "store.content#privacy-policy": {
+  "store.custom#privacy-policy": {
     "blocks": [
       "rich-text#privacy-policy"
     ]
@@ -1567,7 +1567,7 @@
       "blockClass": "privacy-policy"
     }
   },
-  "store.content#terms-and-conditions": {
+  "store.custom#terms-and-conditions": {
     "blocks": [
       "rich-text#terms-and-conditions"
     ]

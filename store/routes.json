@@ -1,41 +1,41 @@
 {
-  "store.content#why-my-water-smells": {
+  "store.custom#why-my-water-smells": {
     "path": "/why-my-water-smells"
   },
-  "store.content#hard-water-basics": {
+  "store.custom#hard-water-basics": {
     "path": "/hard-water-basics"
   },
-  "store.content#water-contaminants-guide": {
+  "store.custom#water-contaminants-guide": {
     "path": "/water-contaminants-guide"
   },
-  "store.content#faq": {
+  "store.custom#faq": {
     "path": "/faq"
   },
-  "store.content#owners-manual": {
+  "store.custom#owners-manual": {
     "path": "/owners-manual"
   },
-  "store.content#about-us": {
+  "store.custom#about-us": {
     "path": "/about-us"
   },
-  "store.content#delivery": {
+  "store.custom#delivery": {
     "path": "/delivery"
   },
-  "store.content#installation": {
+  "store.custom#installation": {
     "path": "/installation"
   },
-  "store.content#filter-subscription": {
+  "store.custom#filter-subscription": {
     "path": "/filter-subscription"
   },
-  "store.content#return-policy": {
+  "store.custom#return-policy": {
     "path": "/return-policy"
   },
   "store.content#contact-us": {
     "path": "/contact-us"
   },
-  "store.content#privacy-policy": {
+  "store.custom#privacy-policy": {
     "path": "/privacy-policy"
   },
-  "store.content#terms-and-conditions": {
+  "store.custom#terms-and-conditions": {
     "path": "/terms-and-conditions"
   }
 }

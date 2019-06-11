@@ -4,7 +4,6 @@
   },
   "store.content" : {
     "allowed": [
-      "content-blocks",
       "contact-us"
     ],
     "before": [
