@@ -1369,7 +1369,7 @@
       "name": {
         "showBrandName": false,
         "showSku": false,
-        "showProductReference": true
+        "showProductReference": false
       }
     }
   },
