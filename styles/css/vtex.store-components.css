@@ -185,12 +185,7 @@ div[class='vtex-carousel'] div[class*='slick-dots'] :global(.slick-active) butto
 }
 
 .productNameContainer {
-  font-size: 0.875rem;
-  line-height: 18px;
-}
-
-.productBrand {
-  font-size: 0.875rem;
+  color: #183b56;
 }
 
 .listPriceLabel,
@@ -292,10 +287,6 @@ div[class='vtex-carousel'] div[class*='slick-dots'] :global(.slick-active) butto
   border-radius: 4px;
 }
 
-/* .specificationsTable thead {
-  display: none;
-} */
-
 .specificationsTable tbody tr:nth-child(even) {
   background-color: #f6f6f6;
 }
@@ -333,9 +324,10 @@ div[class='vtex-carousel'] div[class*='slick-dots'] :global(.slick-active) butto
   color: #364350;
 }
 
-.productDescriptionContainer, .specificationsTabsContainer {
-  max-width: 65rem;
-  margin: 0 auto;
+.buyButton [class*='vtex-button'] {
+  height: 48px;
+  font-weight: 600;
+  text-transform: capitalize;
 }
 
 .productDescriptionContainer [class*='t-heading-5'], .specificationsTitle {
@@ -360,7 +352,6 @@ div[class='vtex-carousel'] div[class*='slick-dots'] :global(.slick-active) butto
   color: #183b56;
   border-bottom-color: #183b56;
 }
-
 
 @media screen and (max-width: 640px) {
   .logoContainer {

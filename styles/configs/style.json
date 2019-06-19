@@ -273,7 +273,7 @@
       },
       "heading-4": {
         "fontFamily": "halyard-display, sans-serif",
-        "fontWeight": "normal",
+        "fontWeight": "600",
         "fontSize": "1.5rem",
         "textTransform": "initial",
         "letterSpacing": "0"
