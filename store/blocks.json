@@ -84,6 +84,14 @@
       "flex-layout.row#buy-button"
     ]
   },
+  "product-highlights": {
+    "props": {
+      "highlights": [
+        { "name": "Warranty", "values": "Enable" },
+        { "name": "Free Shipping", "values": "Enable" }
+      ]
+    }
+  },
   "product-name": {
     "props": {
       "showBrandName": false,

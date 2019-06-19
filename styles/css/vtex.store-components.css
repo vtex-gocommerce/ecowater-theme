@@ -353,6 +353,43 @@ div[class='vtex-carousel'] div[class*='slick-dots'] :global(.slick-active) butto
   border-bottom-color: #183b56;
 }
 
+.itemHighlight {
+  display: inline-block;
+}
+
+.itemHighlight[data-name="Warranty"] .highlightValue,
+.itemHighlight[data-name="Free Shipping"] .highlightValue {
+  display: none;
+}
+
+.itemHighlight[data-name="Warranty"],
+.itemHighlight[data-name="Free Shipping"] {
+  background-image: url("https://ecowaterqa.vteximg.com.br/arquivos/check-mark.png");
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position-y: 5px;
+  padding-left: 21px;
+  margin-right: 5px;
+}
+
+.itemHighlight[data-name="Warranty"] .highlightTitle,
+.itemHighlight[data-name="Free Shipping"] .highlightTitle {
+  font-size: 0;
+}
+
+.itemHighlight[data-name="Warranty"] .highlightTitle:after,
+.itemHighlight[data-name="Free Shipping"] .highlightTitle:after {
+  font-size: 1rem;
+}
+
+.itemHighlight[data-name="Warranty"] .highlightTitle:after {
+  content: 'Warranty';
+}
+
+.itemHighlight[data-name="Free Shipping"] .highlightTitle:after {
+  content: 'Free Shipping';
+}
+
 @media screen and (max-width: 640px) {
   .logoContainer {
     padding: 0 0 4px;
