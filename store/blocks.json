@@ -78,8 +78,8 @@
     },
     "children": [
       "product-name",
-      "product-highlights",
       "product-rating-summary",
+      "product-highlights",
       "product-price#product-details",
       "flex-layout.row#buy-button"
     ]
