@@ -150,6 +150,9 @@
   "store.login": {
     "blocks": ["login-content#default"]
   },
+  "store.product-review-form": {
+    "blocks": ["product-review-form"]
+  },
   "store.orderplaced": {
     "blocks": [
       "order-placed"
