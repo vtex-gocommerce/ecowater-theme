@@ -2,7 +2,7 @@
   text-transform: capitalize;
 }
 
-.container > [class*='vtex-button'] svg {
+.container > [class*="vtex-button"] svg {
   color: #364350;
 }
 
@@ -10,62 +10,86 @@
   display: none;
 }
 
-.sidebarHeader [class*='label'] {
+.sidebarHeader [class*="label"] {
   font-weight: 600;
   text-transform: uppercase;
 }
 
-.sidebar [class*='productBrand'],
-.container [class*='productBrand'] {
+.sidebar [class*="productBrand"],
+.container [class*="productBrand"] {
   font-weight: 600;
 }
 
-.sidebar [class*='imageContainer'],
-.container [class*='imageContainer'] {
+.sidebar [class*="imageContainer"],
+.container [class*="imageContainer"] {
   width: 80px;
   height: 80px;
   max-width: 80px;
   max-height: 80px;
 }
 
-.sidebar [class*='information'] > :global(.mt3.nr2),
-.container [class*='information'] > :global(.mt3.nr2) {
+.sidebar [class*="information"] > :global(.mt3.nr2),
+.container [class*="information"] > :global(.mt3.nr2) {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.sidebar [class*='information'] > :global(.mt3.nr2) > div,
-.container [class*='information'] > :global(.mt3.nr2) > div {
+.sidebar [class*="information"] > :global(.mt3.nr2) > div,
+.container [class*="information"] > :global(.mt3.nr2) > div {
   display: block;
   height: auto;
 }
 
-.sidebar [class*='information'] > :global(.mt3.nr2) :global(.z-2.order-2.flex-none) button,
-.sidebar [class*='information'] > :global(.mt3.nr2) :global(.z-2.order-0.flex-none) button,
-.container [class*='information'] > :global(.mt3.nr2) :global(.z-2.order-2.flex-none) button,
-.container [class*='information'] > :global(.mt3.nr2) :global(.z-2.order-0.flex-none) button {
+.sidebar
+  [class*="information"]
+  > :global(.mt3.nr2)
+  :global(.z-2.order-2.flex-none)
+  button,
+.sidebar
+  [class*="information"]
+  > :global(.mt3.nr2)
+  :global(.z-2.order-0.flex-none)
+  button,
+.container
+  [class*="information"]
+  > :global(.mt3.nr2)
+  :global(.z-2.order-2.flex-none)
+  button,
+.container
+  [class*="information"]
+  > :global(.mt3.nr2)
+  :global(.z-2.order-0.flex-none)
+  button {
   background: #fff;
   border: 1px solid #e3e4e6;
   font-size: 0.9rem;
   padding: 0 15px;
 }
 
-.sidebar [class*='information'] > :global(.mt3.nr2) :global(.z-2.order-0.flex-none) button:global(.c-disabled),
-.container [class*='information'] > :global(.mt3.nr2) :global(.z-2.order-0.flex-none) button:global(.c-disabled) {
+.sidebar
+  [class*="information"]
+  > :global(.mt3.nr2)
+  :global(.z-2.order-0.flex-none)
+  button:global(.c-disabled),
+.container
+  [class*="information"]
+  > :global(.mt3.nr2)
+  :global(.z-2.order-0.flex-none)
+  button:global(.c-disabled) {
   background: #ededed;
   color: #b6b7b8;
 }
 
-.sidebar [class*='information'] > :global(.mt3.nr2) :global(.order-1),
-.container [class*='information'] > :global(.mt3.nr2) :global(.order-1) {
-  padding: 0 15px;
+.sidebar [class*="information"] > :global(.mt3.nr2) :global(.order-1),
+.container [class*="information"] > :global(.mt3.nr2) :global(.order-1) {
+  width: 2rem;
   border-top: 1px solid #e3e4e6;
   border-bottom: 1px solid #e3e4e6;
 }
 
-.sidebar [class*='information'] [class*='sellingPrice'],
-.container [class*='information'] [class*='sellingPrice'] {
+.sidebar [class*="information"] [class*="sellingPrice"],
+.container [class*="information"] [class*="sellingPrice"] {
   font-size: 1rem;
   font-weight: 600;
 }
@@ -84,7 +108,7 @@
   text-transform: capitalize;
 }
 
-.contentFooter [class*='vtex-button'] {
+.contentFooter [class*="vtex-button"] {
   width: 100%;
   height: 48px;
   border-radius: 4px;
@@ -99,5 +123,5 @@
   height: 0.6rem;
   top: -0.6rem;
   right: -0.6rem;
-  border: 2px solid #FFF;
+  border: 2px solid #fff;
 }
