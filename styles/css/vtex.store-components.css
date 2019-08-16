@@ -13,6 +13,7 @@
 
 .searchBarContainer label div {
   justify-content: flex-end;
+  border: none;
 }
 
 .searchBarContainer input {
